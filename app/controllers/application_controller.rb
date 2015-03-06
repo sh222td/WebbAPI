@@ -14,7 +14,7 @@ class ApplicationController < ActionController::Base
     end
     @offset ||= OFFSET
     @limit  ||= LIMIT
-  end
+  end  
   
   # checks if a apikey exists
   def api_key

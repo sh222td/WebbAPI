@@ -31,6 +31,8 @@ Rails.application.configure do
   # Checks for improperly declared sprockets dependencies.
   # Raises helpful error messages.
   config.assets.raise_runtime_errors = true
+  
+  config.baseurl = "sh222td-185996.euw1.nitrousbox.com:3000"
 
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true

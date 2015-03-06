@@ -19588,3 +19588,341 @@ Processing by Api::EventsController#index as */*
   Parameters: {"Authorization"=>"6c1ec423a2b5448f89660cd8f1167e0c"}
 Filter chain halted as :api_authenticate rendered or redirected
 Completed 403 Forbidden in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/events?Authorization=6c1ec423a2b5448f89660cd8f1167e0c" for 194.47.173.9 at 2015-03-06 13:40:15 +0000
+Processing by Api::EventsController#index as */*
+  Parameters: {"Authorization"=>"6c1ec423a2b5448f89660cd8f1167e0c"}
+Filter chain halted as :api_authenticate rendered or redirected
+Completed 403 Forbidden in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/events?Authorization=6c1ec423a2b5448f89660cd8f1167e0c" for 194.47.173.9 at 2015-03-06 13:40:15 +0000
+Processing by Api::EventsController#index as */*
+  Parameters: {"Authorization"=>"6c1ec423a2b5448f89660cd8f1167e0c"}
+Filter chain halted as :api_authenticate rendered or redirected
+Completed 403 Forbidden in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/events?Authorization=6c1ec423a2b5448f89660cd8f1167e0c" for 194.47.173.9 at 2015-03-06 13:40:16 +0000
+Processing by Api::EventsController#index as */*
+  Parameters: {"Authorization"=>"6c1ec423a2b5448f89660cd8f1167e0c"}
+Filter chain halted as :api_authenticate rendered or redirected
+Completed 403 Forbidden in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/events?Authorization=6c1ec423a2b5448f89660cd8f1167e0c" for 194.47.173.9 at 2015-03-06 13:40:16 +0000
+Processing by Api::EventsController#index as */*
+  Parameters: {"Authorization"=>"6c1ec423a2b5448f89660cd8f1167e0c"}
+Filter chain halted as :api_authenticate rendered or redirected
+Completed 403 Forbidden in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/events?Authorization=6c1ec423a2b5448f89660cd8f1167e0c" for 194.47.173.9 at 2015-03-06 13:40:16 +0000
+Processing by Api::EventsController#index as */*
+  Parameters: {"Authorization"=>"6c1ec423a2b5448f89660cd8f1167e0c"}
+Filter chain halted as :api_authenticate rendered or redirected
+Completed 403 Forbidden in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/events?Authorization=6c1ec423a2b5448f89660cd8f1167e0c" for 194.47.173.9 at 2015-03-06 13:40:18 +0000
+Processing by Api::EventsController#index as */*
+  Parameters: {"Authorization"=>"6c1ec423a2b5448f89660cd8f1167e0c"}
+Filter chain halted as :api_authenticate rendered or redirected
+Completed 403 Forbidden in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/events?Authorization=6c1ec423a2b5448f89660cd8f1167e0c" for 194.47.173.9 at 2015-03-06 13:40:28 +0000
+Processing by Api::EventsController#index as */*
+  Parameters: {"Authorization"=>"6c1ec423a2b5448f89660cd8f1167e0c"}
+Filter chain halted as :api_authenticate rendered or redirected
+Completed 403 Forbidden in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/events?Authorization=6c1ec423a2b5448f89660cd8f1167e0c" for 194.47.173.9 at 2015-03-06 13:40:28 +0000
+Processing by Api::EventsController#index as */*
+  Parameters: {"Authorization"=>"6c1ec423a2b5448f89660cd8f1167e0c"}
+Filter chain halted as :api_authenticate rendered or redirected
+Completed 403 Forbidden in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/events?Authorization=6c1ec423a2b5448f89660cd8f1167e0c" for 194.47.173.9 at 2015-03-06 13:40:28 +0000
+Processing by Api::EventsController#index as */*
+  Parameters: {"Authorization"=>"6c1ec423a2b5448f89660cd8f1167e0c"}
+Filter chain halted as :api_authenticate rendered or redirected
+Completed 403 Forbidden in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/events?Authorization=6c1ec423a2b5448f89660cd8f1167e0c" for 194.47.173.9 at 2015-03-06 13:40:29 +0000
+Processing by Api::EventsController#index as */*
+  Parameters: {"Authorization"=>"6c1ec423a2b5448f89660cd8f1167e0c"}
+Filter chain halted as :api_authenticate rendered or redirected
+Completed 403 Forbidden in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/events?Authorization=6c1ec423a2b5448f89660cd8f1167e0c" for 194.47.173.9 at 2015-03-06 13:40:29 +0000
+Processing by Api::EventsController#index as */*
+  Parameters: {"Authorization"=>"6c1ec423a2b5448f89660cd8f1167e0c"}
+Filter chain halted as :api_authenticate rendered or redirected
+Completed 403 Forbidden in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/events?Authorization=6c1ec423a2b5448f89660cd8f1167e0c" for 194.47.173.9 at 2015-03-06 13:40:29 +0000
+Processing by Api::EventsController#index as */*
+  Parameters: {"Authorization"=>"6c1ec423a2b5448f89660cd8f1167e0c"}
+Filter chain halted as :api_authenticate rendered or redirected
+Completed 403 Forbidden in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/events?Authorization=6c1ec423a2b5448f89660cd8f1167e0c" for 194.47.173.9 at 2015-03-06 13:40:30 +0000
+Processing by Api::EventsController#index as */*
+  Parameters: {"Authorization"=>"6c1ec423a2b5448f89660cd8f1167e0c"}
+Filter chain halted as :api_authenticate rendered or redirected
+Completed 403 Forbidden in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/events?Authorization=6c1ec423a2b5448f89660cd8f1167e0c" for 194.47.173.9 at 2015-03-06 13:40:30 +0000
+Processing by Api::EventsController#index as */*
+  Parameters: {"Authorization"=>"6c1ec423a2b5448f89660cd8f1167e0c"}
+Filter chain halted as :api_authenticate rendered or redirected
+Completed 403 Forbidden in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/events?Authorization=6c1ec423a2b5448f89660cd8f1167e0c" for 194.47.173.9 at 2015-03-06 13:40:30 +0000
+Processing by Api::EventsController#index as */*
+  Parameters: {"Authorization"=>"6c1ec423a2b5448f89660cd8f1167e0c"}
+Filter chain halted as :api_authenticate rendered or redirected
+Completed 403 Forbidden in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/events?Authorization=6c1ec423a2b5448f89660cd8f1167e0c" for 194.47.173.9 at 2015-03-06 13:40:30 +0000
+Processing by Api::EventsController#index as */*
+  Parameters: {"Authorization"=>"6c1ec423a2b5448f89660cd8f1167e0c"}
+Filter chain halted as :api_authenticate rendered or redirected
+Completed 403 Forbidden in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/events?Authorization=6c1ec423a2b5448f89660cd8f1167e0c" for 194.47.173.9 at 2015-03-06 13:40:30 +0000
+Processing by Api::EventsController#index as */*
+  Parameters: {"Authorization"=>"6c1ec423a2b5448f89660cd8f1167e0c"}
+Filter chain halted as :api_authenticate rendered or redirected
+Completed 403 Forbidden in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/events" for 194.47.173.9 at 2015-03-06 13:40:40 +0000
+Processing by Api::EventsController#index as HTML
+Filter chain halted as :api_authenticate rendered or redirected
+Completed 403 Forbidden in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/events" for 194.47.173.9 at 2015-03-06 13:40:42 +0000
+Processing by Api::EventsController#index as HTML
+Filter chain halted as :api_authenticate rendered or redirected
+Completed 403 Forbidden in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/events?Authorization=6c1ec423a2b5448f89660cd8f1167e0c" for 194.47.173.9 at 2015-03-06 13:41:24 +0000
+Processing by Api::EventsController#index as */*
+  Parameters: {"Authorization"=>"6c1ec423a2b5448f89660cd8f1167e0c"}
+Filter chain halted as :api_authenticate rendered or redirected
+Completed 403 Forbidden in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/events?Authorization=6c1ec423a2b5448f89660cd8f1167e0c&Content-type=json/application" for 194.47.173.9 at 2015-03-06 13:42:54 +0000
+Processing by Api::EventsController#index as */*
+  Parameters: {"Authorization"=>"6c1ec423a2b5448f89660cd8f1167e0c", "Content-type"=>"json/application"}
+Filter chain halted as :api_authenticate rendered or redirected
+Completed 403 Forbidden in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/events?Authorization" for 194.47.173.9 at 2015-03-06 13:43:25 +0000
+Processing by Api::EventsController#index as */*
+  Parameters: {"Authorization"=>nil}
+Filter chain halted as :api_authenticate rendered or redirected
+Completed 403 Forbidden in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/events?Authorization" for 194.47.173.9 at 2015-03-06 13:43:33 +0000
+Processing by Api::EventsController#index as */*
+  Parameters: {"Authorization"=>nil}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."api_key" = '6c1ec423a2b5448f89660cd8f1167e0c' LIMIT 1
+  [1m[36mEvent Load (0.2ms)[0m  [1mSELECT  "events".* FROM "events"  LIMIT 20 OFFSET 0[0m
+Completed 200 OK in 37ms (Views: 1.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/events" for 194.47.173.9 at 2015-03-06 13:43:54 +0000
+Processing by Api::EventsController#index as */*
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."api_key" = '6c1ec423a2b5448f89660cd8f1167e0c' LIMIT 1
+  [1m[36mEvent Load (0.1ms)[0m  [1mSELECT  "events".* FROM "events"  LIMIT 20 OFFSET 0[0m
+Completed 200 OK in 3ms (Views: 0.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/events" for 194.47.173.9 at 2015-03-06 13:44:04 +0000
+Processing by Api::EventsController#index as */*
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."api_key" = '6c1ec423a2b5448f89660cd8f1167e0c' LIMIT 1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  LIMIT 20 OFFSET 0[0m
+Completed 500 Internal Server Error in 14ms
+
+NoMethodError (undefined method `baseurl' for #<Rails::Application::Configuration:0x007f8fb463bed8>):
+  app/models/user.rb:38:in `ref'
+  app/models/user.rb:34:in `serializable_hash'
+  app/controllers/api/events_controller.rb:9:in `index'
+
+
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.5ms)
+
+
+Started GET "/api/events" for 194.47.173.9 at 2015-03-06 13:44:26 +0000
+Processing by Api::EventsController#index as */*
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."api_key" = '6c1ec423a2b5448f89660cd8f1167e0c' LIMIT 1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users"[0m
+Completed 500 Internal Server Error in 13ms
+
+NoMethodError (undefined method `baseurl' for #<Rails::Application::Configuration:0x007f8fb463bed8>):
+  app/models/user.rb:38:in `ref'
+  app/models/user.rb:34:in `serializable_hash'
+  app/controllers/api/events_controller.rb:10:in `index'
+
+
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (22.0ms)
+
+
+Started GET "/api/events" for 194.47.173.9 at 2015-03-06 13:55:56 +0000
+Processing by Api::EventsController#index as */*
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."api_key" = '6c1ec423a2b5448f89660cd8f1167e0c' LIMIT 1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users"[0m
+Completed 500 Internal Server Error in 13ms
+
+NoMethodError (undefined method `players' for #<User:0x007f8fb5d4b6c8>):
+  app/models/user.rb:36:in `serializable_hash'
+  app/controllers/api/events_controller.rb:10:in `index'
+
+
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.2ms)
+
+
+Started GET "/api/events" for 194.47.173.9 at 2015-03-06 14:00:05 +0000
+Processing by Api::EventsController#index as */*
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."api_key" = '6c1ec423a2b5448f89660cd8f1167e0c' LIMIT 1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users"[0m
+Completed 500 Internal Server Error in 21ms
+
+NoMethodError (undefined method `baseurl' for #<Rails::Application::Configuration:0x007f8fb463bed8>):
+  app/models/user.rb:38:in `ref'
+  app/models/user.rb:34:in `serializable_hash'
+  app/controllers/api/events_controller.rb:10:in `index'
+
+
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (22.5ms)
+
+
+Started GET "/api/events" for 194.47.173.9 at 2015-03-06 14:00:41 +0000
+Processing by Api::EventsController#index as */*
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."api_key" = '6c1ec423a2b5448f89660cd8f1167e0c' LIMIT 1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users"[0m
+Completed 500 Internal Server Error in 14ms
+
+NoMethodError (undefined method `baseurl' for #<Rails::Application::Configuration:0x007f8fb463bed8>):
+  app/models/user.rb:38:in `ref'
+  app/models/user.rb:34:in `serializable_hash'
+  app/controllers/api/events_controller.rb:10:in `index'
+
+
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (22.4ms)
+
+
+Started GET "/api/events" for 194.47.173.9 at 2015-03-06 14:01:26 +0000
+Processing by Api::EventsController#index as */*
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."api_key" = '6c1ec423a2b5448f89660cd8f1167e0c' LIMIT 1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users"[0m
+Completed 500 Internal Server Error in 13ms
+
+NoMethodError (undefined method `baseurl' for #<Rails::Application::Configuration:0x007f8fb463bed8>):
+  app/models/user.rb:38:in `ref'
+  app/models/user.rb:34:in `serializable_hash'
+  app/controllers/api/events_controller.rb:10:in `index'
+
+
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (29.4ms)
+
+
+Started GET "/api/events" for 194.47.173.9 at 2015-03-06 14:02:56 +0000
+Processing by Api::EventsController#index as */*
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."api_key" = '6c1ec423a2b5448f89660cd8f1167e0c' LIMIT 1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users"[0m
+Completed 500 Internal Server Error in 14ms
+
+NoMethodError (undefined method `baseurl' for #<Rails::Application::Configuration:0x007f8fb463bed8>):
+  app/models/user.rb:38:in `ref'
+  app/models/user.rb:34:in `serializable_hash'
+  app/controllers/api/events_controller.rb:10:in `index'
+
+
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (22.4ms)
+
+
+Started GET "/api/events" for 194.47.173.9 at 2015-03-06 14:04:05 +0000
+Processing by Api::EventsController#index as */*
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."api_key" = '6c1ec423a2b5448f89660cd8f1167e0c' LIMIT 1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 13ms (Views: 4.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/events" for 194.47.173.9 at 2015-03-06 14:05:00 +0000
+Processing by Api::EventsController#index as */*
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."api_key" = '6c1ec423a2b5448f89660cd8f1167e0c' LIMIT 1
+  [1m[36mEvent Load (0.4ms)[0m  [1mSELECT  "events".* FROM "events"  LIMIT 20 OFFSET 0[0m
+Completed 200 OK in 26ms (Views: 9.1ms | ActiveRecord: 1.3ms)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "tags" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", "2015-03-06 14:10:55.642664"], ["name", "Grillning"], ["updated_at", "2015-03-06 14:10:55.642664"]]
+  [1m[36m (22.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "tags" ("created_at", "name", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", "2015-03-06 14:11:26.134946"], ["name", "Fisketur"], ["updated_at", "2015-03-06 14:11:26.134946"]]
+  [1m[35m (26.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "tags" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", "2015-03-06 14:12:13.911646"], ["name", "LAN"], ["updated_at", "2015-03-06 14:12:13.911646"]]
+  [1m[36m (23.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "positions" ("created_at", "latitude", "longitude", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", "2015-03-06 14:14:53.987879"], ["latitude", 55.2342], ["longitude", 45.8765], ["updated_at", "2015-03-06 14:14:53.987879"]]
+  [1m[35m (29.4ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "positions" ("created_at", "latitude", "longitude", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", "2015-03-06 14:15:06.520566"], ["latitude", 35.2342], ["longitude", 25.8765], ["updated_at", "2015-03-06 14:15:06.520566"]]
+  [1m[36m (16.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "events" ("created_at", "description", "positionID", "tagID", "updated_at", "userID") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2015-03-06 14:17:03.025538"], ["description", "Ta med egen dator och tonvis med chips."], ["positionID", 2], ["tagID", 3], ["updated_at", "2015-03-06 14:17:03.025538"], ["userID", 1]]
+  [1m[35m (25.5ms)[0m  commit transaction
+
+
+Started GET "/api/events" for 194.47.173.9 at 2015-03-06 14:17:09 +0000
+Processing by Api::EventsController#index as */*
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."api_key" = '6c1ec423a2b5448f89660cd8f1167e0c' LIMIT 1
+  [1m[36mEvent Load (0.2ms)[0m  [1mSELECT  "events".* FROM "events"  LIMIT 20 OFFSET 0[0m
+Completed 200 OK in 21ms (Views: 5.2ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/api/events" for 194.47.173.9 at 2015-03-06 14:19:12 +0000
+Processing by Api::EventsController#index as */*
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."api_key" = '6c1ec423a2b5448f89660cd8f1167e0c' LIMIT 1
+  [1m[36mEvent Load (0.2ms)[0m  [1mSELECT  "events".* FROM "events"  LIMIT 20 OFFSET 0[0m
+Completed 200 OK in 4ms (Views: 0.9ms | ActiveRecord: 0.5ms)

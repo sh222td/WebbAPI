@@ -25,17 +25,4 @@ class User < ActiveRecord::Base
             length: { minimum: 6, message: "Lösenordet är för kort, ange minst 6 tecken." }, 
             format: { with: /\A[a-zåäöA-ZÅÄÖ]+\z/, message: "Fältet 'lösenord' innehåller otillåtna karaktärer." }
   
-  def serializable_hash (options={})
-    options = {
-      only: [:id, :username, :email],
-      methods: [:ref]
-    }.update(options)
-    
-    super(options)
-  end
-  
-  def ref
-    { :href => "#{Rails.configuration.baseurl}#{api_user_path(self)}" }
-  end
-  
 end
