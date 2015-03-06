@@ -1,4 +1,8 @@
 class User < ActiveRecord::Base
+  
+  include Rails.application.routes.url_helpers
+  
+  belongs_to :event
   #Handles user security
   has_secure_password :validations => false
   #Makes sure that the email is saved with lowercase letters.
@@ -21,7 +25,17 @@ class User < ActiveRecord::Base
             length: { minimum: 6, message: "Lösenordet är för kort, ange minst 6 tecken." }, 
             format: { with: /\A[a-zåäöA-ZÅÄÖ]+\z/, message: "Fältet 'lösenord' innehåller otillåtna karaktärer." }
   
-  validates :password_confirmation, 
-            :presence => {:message => "Du måste upprepa ditt lösenord."}
+  def serializable_hash (options={})
+    options = {
+      only: [:id, :username, :email],
+      methods: [:ref]
+    }.update(options)
+    
+    super(options)
+  end
+  
+  def ref
+    { :href => "#{Rails.configuration.baseurl}#{api_user_path(self)}" }
+  end
   
 end

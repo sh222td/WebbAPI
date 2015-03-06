@@ -6,7 +6,7 @@ class CreateUsers < ActiveRecord::Migration
       t.string "password_digest", :null => false
       t.string :api_key
       t.string :admin_auth
-      t.timestamps
+      t.timestamps null: false
     end
   end
 end
