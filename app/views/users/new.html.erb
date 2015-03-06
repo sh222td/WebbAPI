@@ -1,0 +1,42 @@
+<div class="center jumbotron">
+  <div class="text-center">
+    <h1>Registrera ny användare</h1>
+  </div>
+</div>
+
+<!-Form for registration->
+
+<div class="row">
+  <div class="col-md-6 col-md-offset-5">
+<%= form_for @user do |f| %>
+    <p><%= f.label :username %></p>
+    <p><%= f.text_field :username %></p>
+    <div class="control-group error">
+      <%= @user.errors[:username] %>
+    </div>
+  
+  <p><%= f.label :email %></p>
+  <p><%= f.email_field :email %></p>
+    <div class="control-group error">
+      <%= @user.errors[:email] %>
+    </div>
+  
+  <p><%= f.label :password %></p>
+  <p><%= f.password_field :password %></p>
+    <div class="control-group error">
+      <%= @user.errors[:password] %>
+    </div>
+  
+  <p><%= f.label :password_confirmation %></p>
+  <p><%= f.password_field :password_confirmation %></p>
+    <div class="control-group error">
+      <%= @user.errors[:password_confirmation] %>
+    </div>
+  
+  <p><%= f.submit "Registrera" %></p>
+    
+    <%= link_to "Tillbaka till inloggningsformuläret", root_path %>
+  
+  <% end %>
+  </div>
+</div>

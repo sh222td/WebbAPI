@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Calendar</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+  <div class="container">
+    <% flash.each do |message_type, message| %>
+    <div class="alert alert-<%= message_type %>"><%= message %></div>
+      <% end %>
+    
+    <% if current_user.present? %>
+    <div class="alert alert-success" role="alert">Inloggad som <%= current_user.username %></div>
+    <% end %>
+  </div>
+<%= yield %>
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+<div class ="col-md-offset-2">
+    <button type="button" class="btn btn-info" ><%= link_to "Logga ut", logout_path %></button>
+</div>
+
+<!-Checks if the user is a admin or not, then render out the suiting view->
+
+<% if current_user.admin_auth.nil? %>
+<div class="col-md-6 col-md-offset-5">
+  <h1>Din nyckel</h1>
+</div>
+<div class="col-md-6 col-md-offset-5">
+   <% if current_user %>
+  <p><%= current_user.api_key %></p>
+   <% end %>
+</div>
+<div class ="col-md-6 col-md-offset-5">
+  
+<!-Checks if the user have a api-key->
+  
+  <% if current_user.api_key.present? %>
+  <button type="button" class="btn btn-warning" ><%= link_to "Ta bort API-nyckel", current_user, method: :delete %></button>
+  <% else %>
+  <button type="button" class="btn btn-success" ><%= link_to "Lägg till ny API-nyckel", addAPI_path , method: :get %></button>
+  <% end %>
+</div>
+<% else %>
+  <div class ="col-md-6 col-md-offset-5">
+    <% User.all.each do |user| %>
+    <p>Användarnamn: <%= user.username %></p>
+    <p>API nyckel: <%= user.api_key %> <%= link_to "Ta bort API nyckeln", user, method: :delete %></p>
+    <% end %>
+  </div>
+<% end %>
