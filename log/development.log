@@ -19926,3 +19926,2346 @@ Processing by Api::EventsController#index as */*
   [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."api_key" = '6c1ec423a2b5448f89660cd8f1167e0c' LIMIT 1
   [1m[36mEvent Load (0.2ms)[0m  [1mSELECT  "events".* FROM "events"  LIMIT 20 OFFSET 0[0m
 Completed 200 OK in 4ms (Views: 0.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 194.47.173.3 at 2015-03-22 15:30:25 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (28.5ms)
+Completed 200 OK in 2584ms (Views: 2547.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 194.47.173.3 at 2015-03-22 15:30:28 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 194.47.173.3 at 2015-03-22 15:30:28 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 194.47.173.3 at 2015-03-22 15:30:28 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 194.47.173.3 at 2015-03-22 15:30:28 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 194.47.173.3 at 2015-03-22 15:30:28 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 194.47.173.3 at 2015-03-22 15:30:28 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 194.47.173.3 at 2015-03-22 15:30:28 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 194.47.173.3 at 2015-03-22 15:30:28 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 194.47.173.3 at 2015-03-22 15:30:28 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 194.47.173.3 at 2015-03-22 15:30:28 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 194.47.173.3 at 2015-03-22 15:30:28 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 194.47.173.3 at 2015-03-22 15:30:28 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 194.47.173.3 at 2015-03-22 15:30:28 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 194.47.173.3 at 2015-03-22 15:30:29 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 194.47.173.3 at 2015-03-22 15:30:29 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 194.47.173.3 at 2015-03-22 15:30:29 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 194.47.173.3 at 2015-03-22 15:30:29 +0000
+
+
+Started GET "/assets/api.js?body=1" for 194.47.173.3 at 2015-03-22 15:30:29 +0000
+
+
+Started GET "/assets/apikeys.js?body=1" for 194.47.173.3 at 2015-03-22 15:30:29 +0000
+
+
+Started GET "/assets/events.js?body=1" for 194.47.173.3 at 2015-03-22 15:30:29 +0000
+
+
+Started GET "/assets/positions.js?body=1" for 194.47.173.3 at 2015-03-22 15:30:29 +0000
+
+
+Started GET "/assets/sessions.js?body=1" for 194.47.173.3 at 2015-03-22 15:30:29 +0000
+
+
+Started GET "/assets/tags.js?body=1" for 194.47.173.3 at 2015-03-22 15:30:29 +0000
+
+
+Started GET "/assets/users.js?body=1" for 194.47.173.3 at 2015-03-22 15:30:29 +0000
+
+
+Started GET "/assets/application.js?body=1" for 194.47.173.3 at 2015-03-22 15:30:29 +0000
+
+
+Started GET "/api/events" for 194.47.173.3 at 2015-03-22 15:30:54 +0000
+Processing by Api::EventsController#index as */*
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."api_key" = '6c1ec423a2b5448f89660cd8f1167e0c' LIMIT 1
+  [1m[36mEvent Load (0.2ms)[0m  [1mSELECT  "events".* FROM "events"  LIMIT 20 OFFSET 0[0m
+Completed 200 OK in 150ms (Views: 7.8ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/api/events" for 194.47.173.3 at 2015-03-22 15:31:09 +0000
+Processing by Api::EventsController#index as */*
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."api_key" = '6c1ec423a2b5448f89660cd8f1167e0c' LIMIT 1
+  [1m[36mEvent Load (0.2ms)[0m  [1mSELECT  "events".* FROM "events"  LIMIT 20 OFFSET 0[0m
+Completed 200 OK in 10ms (Views: 6.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/events" for 194.47.173.3 at 2015-03-22 15:32:11 +0000
+Processing by Api::EventsController#index as */*
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."api_key" = '6c1ec423a2b5448f89660cd8f1167e0c' LIMIT 1
+  [1m[36mEvent Load (0.2ms)[0m  [1mSELECT  "events".* FROM "events"  LIMIT 20 OFFSET 0[0m
+Completed 200 OK in 4ms (Views: 0.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/events" for 194.47.173.3 at 2015-03-22 15:32:42 +0000
+Processing by Api::EventsController#index as */*
+Filter chain halted as :api_authenticate rendered or redirected
+Completed 403 Forbidden in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/events" for 194.47.173.3 at 2015-03-22 15:33:40 +0000
+Processing by Api::EventsController#index as */*
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."api_key" = '6c1ec423a2b5448f89660cd8f1167e0c' LIMIT 1
+  [1m[36mEvent Load (0.2ms)[0m  [1mSELECT  "events".* FROM "events"  LIMIT 20 OFFSET 0[0m
+Completed 200 OK in 4ms (Views: 0.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/events" for 194.47.173.3 at 2015-03-22 15:33:46 +0000
+Processing by Api::EventsController#index as */*
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."api_key" = '6c1ec423a2b5448f89660cd8f1167e0c' LIMIT 1
+  [1m[36mEvent Load (0.2ms)[0m  [1mSELECT  "events".* FROM "events"  LIMIT 20 OFFSET 0[0m
+Completed 200 OK in 5ms (Views: 1.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/api/events/1" for 194.47.173.3 at 2015-03-22 15:36:35 +0000
+Processing by Api::EventsController#show as */*
+  Parameters: {"id"=>"1"}
+Filter chain halted as :api_authenticate rendered or redirected
+Completed 403 Forbidden in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/events/1" for 194.47.173.3 at 2015-03-22 15:36:53 +0000
+Processing by Api::EventsController#show as */*
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."api_key" = '6c1ec423a2b5448f89660cd8f1167e0c' LIMIT 1
+  [1m[36mEvent Load (0.2ms)[0m  [1mSELECT  "events".* FROM "events"  WHERE "events"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 23ms (Views: 0.5ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/api/events/2" for 194.47.173.3 at 2015-03-22 15:36:58 +0000
+Processing by Api::EventsController#show as */*
+  Parameters: {"id"=>"2"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."api_key" = '6c1ec423a2b5448f89660cd8f1167e0c' LIMIT 1
+  [1m[36mEvent Load (0.2ms)[0m  [1mSELECT  "events".* FROM "events"  WHERE "events"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 500 Internal Server Error in 3ms
+
+NoMethodError (undefined method `new' for nil:NilClass):
+  app/controllers/api/events_controller.rb:17:in `rescue in show'
+  app/controllers/api/events_controller.rb:13:in `show'
+
+
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (35.9ms)
+
+
+Started GET "/users/new" for 194.47.173.3 at 2015-03-22 15:37:49 +0000
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (112.8ms)
+Completed 200 OK in 265ms (Views: 263.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 194.47.173.3 at 2015-03-22 15:38:07 +0000
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5IhFv3QO6K7TWacUcEdWvguIGTyHEQ24RcRvPZ7ZUqs=", "user"=>{"username"=>"sandra", "email"=>"sandra@mail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Registrera"}
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."username" = 'sandra' LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users"  WHERE "users"."email" = 'sandra@mail.com' LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "users" ("api_key", "created_at", "email", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?)[0m  [["api_key", "4d764b97632ded236b94e1b3462497fa"], ["created_at", "2015-03-22 15:38:07.289057"], ["email", "sandra@mail.com"], ["password_digest", "$2a$10$5yrZECYcjR1Cw8eVrpMbPON7wPxp6QAQch3yeoLSl2qXAy1.MFIXC"], ["updated_at", "2015-03-22 15:38:07.289057"], ["username", "sandra"]]
+  [1m[35m (28.0ms)[0m  commit transaction
+Redirected to http://sh222td-185996.euw1.nitrousbox.com/apikeys
+Completed 302 Found in 310ms (ActiveRecord: 29.0ms)
+
+
+Started GET "/apikeys" for 194.47.173.3 at 2015-03-22 15:38:07 +0000
+Processing by ApikeysController#show as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered apikeys/show.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 173ms (Views: 166.3ms | ActiveRecord: 0.3ms)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "events" ("created_at", "description", "positionID", "tagID", "updated_at", "userID") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", "2015-03-22 15:42:22.859198"], ["description", "Fiskeresa till Helsingborg. Grillning efteråt med dagens fångst!"], ["positionID", 1], ["tagID", 1], ["updated_at", "2015-03-22 15:42:22.859198"], ["userID", 1]]
+  [1m[36m (23.0ms)[0m  [1mcommit transaction[0m
+
+
+Started GET "/api/events/2" for 194.47.173.3 at 2015-03-22 15:42:31 +0000
+Processing by Api::EventsController#show as */*
+  Parameters: {"id"=>"2"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."api_key" = '6c1ec423a2b5448f89660cd8f1167e0c' LIMIT 1
+  [1m[36mEvent Load (0.1ms)[0m  [1mSELECT  "events".* FROM "events"  WHERE "events"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 8ms (Views: 0.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/events" for 194.47.173.3 at 2015-03-22 15:43:23 +0000
+Processing by Api::EventsController#index as */*
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."api_key" = '6c1ec423a2b5448f89660cd8f1167e0c' LIMIT 1
+  [1m[36mEvent Load (0.2ms)[0m  [1mSELECT  "events".* FROM "events"  LIMIT 20 OFFSET 0[0m
+Completed 200 OK in 4ms (Views: 1.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/events" for 194.47.173.3 at 2015-03-22 15:44:54 +0000
+Processing by Api::EventsController#index as */*
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."api_key" = '6c1ec423a2b5448f89660cd8f1167e0c' LIMIT 1
+Completed 500 Internal Server Error in 15ms
+
+NameError (undefined local variable or method `desc' for #<Api::EventsController:0x007fb8c8ced460>):
+  app/controllers/api/events_controller.rb:8:in `index'
+
+
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (23.2ms)
+
+
+Started GET "/api/events" for 194.47.173.3 at 2015-03-22 15:45:31 +0000
+Processing by Api::EventsController#index as */*
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."api_key" = '6c1ec423a2b5448f89660cd8f1167e0c' LIMIT 1[0m
+Completed 500 Internal Server Error in 17ms
+
+NoMethodError (undefined method `created_at' for #<Api::EventsController:0x007fb8c85c7140>):
+  app/controllers/api/events_controller.rb:8:in `index'
+
+
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (23.6ms)
+
+
+Started GET "/api/events" for 194.47.173.3 at 2015-03-22 15:46:04 +0000
+
+SyntaxError (/home/action/WebbAPI/app/controllers/api/events_controller.rb:8: syntax error, unexpected ':', expecting ')'
+...et(@offset).order(:created_at :desc)
+...                               ^):
+  activesupport (4.1.0) lib/active_support/dependencies.rb:443:in `load'
+  activesupport (4.1.0) lib/active_support/dependencies.rb:443:in `block in load_file'
+  activesupport (4.1.0) lib/active_support/dependencies.rb:633:in `new_constants_in'
+  activesupport (4.1.0) lib/active_support/dependencies.rb:442:in `load_file'
+  activesupport (4.1.0) lib/active_support/dependencies.rb:342:in `require_or_load'
+  activesupport (4.1.0) lib/active_support/dependencies.rb:480:in `load_missing_constant'
+  activesupport (4.1.0) lib/active_support/dependencies.rb:180:in `const_missing'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:240:in `const_get'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:240:in `block in constantize'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:236:in `each'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:236:in `inject'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:236:in `constantize'
+  activesupport (4.1.0) lib/active_support/dependencies.rb:552:in `get'
+  activesupport (4.1.0) lib/active_support/dependencies.rb:583:in `constantize'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:76:in `controller_reference'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:66:in `controller'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:44:in `call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.0) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (20.4ms)
+
+
+Started GET "/api/events" for 194.47.173.3 at 2015-03-22 15:46:24 +0000
+Processing by Api::EventsController#index as */*
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."api_key" = '6c1ec423a2b5448f89660cd8f1167e0c' LIMIT 1
+Completed 500 Internal Server Error in 16ms
+
+NameError (undefined local variable or method `desc' for #<Api::EventsController:0x007fb8c87c5690>):
+  app/controllers/api/events_controller.rb:8:in `index'
+
+
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (23.6ms)
+
+
+Started GET "/api/events" for 194.47.173.3 at 2015-03-22 15:46:32 +0000
+Processing by Api::EventsController#index as */*
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."api_key" = '6c1ec423a2b5448f89660cd8f1167e0c' LIMIT 1[0m
+  [1m[35mEvent Load (0.2ms)[0m  SELECT  "events".* FROM "events"   ORDER BY "events"."created_at" DESC LIMIT 20 OFFSET 0
+Completed 200 OK in 19ms (Views: 4.9ms | ActiveRecord: 1.3ms)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "events" ("created_at", "description", "positionID", "tagID", "updated_at", "userID") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2015-03-22 15:48:11.333599"], ["description", "Fest På Kontoret!"], ["positionID", 1], ["tagID", 1], ["updated_at", "2015-03-22 15:48:11.333599"], ["userID", 1]]
+  [1m[35m (18.0ms)[0m  commit transaction
+
+
+Started GET "/api/tags/1/events" for 194.47.173.3 at 2015-03-22 15:55:14 +0000
+
+ActionController::RoutingError (uninitialized constant Api::Api):
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:253:in `const_get'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:253:in `block in constantize'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:236:in `each'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:236:in `inject'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:236:in `constantize'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:76:in `controller_reference'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:66:in `controller'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:44:in `call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.0) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.5ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (3.5ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (63.3ms)
+
+
+Started GET "/api/tags/1/events" for 194.47.173.3 at 2015-03-22 15:55:34 +0000
+
+ActionController::RoutingError (uninitialized constant Api::Api):
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:253:in `const_get'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:253:in `block in constantize'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:236:in `each'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:236:in `inject'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:236:in `constantize'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:76:in `controller_reference'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:66:in `controller'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:44:in `call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.0) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.5ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (40.7ms)
+
+
+Started GET "/api/tags/1/events" for 194.47.173.3 at 2015-03-22 15:56:10 +0000
+
+LoadError (Unable to autoload constant Api::TagsController, expected /home/action/WebbAPI/app/controllers/api/tags_controller.rb to define it):
+  activesupport (4.1.0) lib/active_support/dependencies.rb:481:in `load_missing_constant'
+  activesupport (4.1.0) lib/active_support/dependencies.rb:180:in `const_missing'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:240:in `const_get'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:240:in `block in constantize'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:236:in `each'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:236:in `inject'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:236:in `constantize'
+  activesupport (4.1.0) lib/active_support/dependencies.rb:552:in `get'
+  activesupport (4.1.0) lib/active_support/dependencies.rb:583:in `constantize'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:76:in `controller_reference'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:66:in `controller'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:44:in `call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.0) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (22.3ms)
+
+
+Started GET "/api/tags/1/events" for 194.47.173.3 at 2015-03-22 15:56:47 +0000
+Processing by Api::TagsController#tagevents as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mTag Load (0.2ms)[0m  [1mSELECT  "tags".* FROM "tags"  WHERE "tags"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 500 Internal Server Error in 7ms
+
+NoMethodError (undefined method `events' for #<Tag:0x007fb8c82f1218>):
+  app/controllers/api/tags_controller.rb:9:in `tagevents'
+
+
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.4ms)
+
+
+Started GET "/api/tags/1/events" for 194.47.173.3 at 2015-03-22 15:57:07 +0000
+Processing by Api::TagsController#tagevents as */*
+  Parameters: {"id"=>"1"}
+  [1m[35mTag Load (0.2ms)[0m  SELECT  "tags".* FROM "tags"  WHERE "tags"."id" = ? LIMIT 1  [["id", 1]]
+Completed 500 Internal Server Error in 34ms
+
+RuntimeError (In order to use respond_with, first you need to declare the formats your controller responds to in the class level.):
+  app/controllers/api/tags_controller.rb:9:in `tagevents'
+
+
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (20.4ms)
+
+
+Started GET "/api/tags/1/events" for 194.47.173.3 at 2015-03-22 15:57:59 +0000
+Processing by Api::TagsController#tagevents as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mTag Load (0.2ms)[0m  [1mSELECT  "tags".* FROM "tags"  WHERE "tags"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 500 Internal Server Error in 4ms
+
+RuntimeError (In order to use respond_with, first you need to declare the formats your controller responds to in the class level.):
+  app/controllers/api/tags_controller.rb:9:in `tagevents'
+
+
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (20.6ms)
+
+
+Started GET "/api/tags/1/events" for 194.47.173.3 at 2015-03-22 15:58:30 +0000
+Processing by Api::TagsController#tagevents as */*
+  Parameters: {"id"=>"1"}
+  [1m[35mTag Load (0.2ms)[0m  SELECT  "tags".* FROM "tags"  WHERE "tags"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 9ms (Views: 0.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/api/tags/1/events" for 194.47.173.3 at 2015-03-22 15:58:41 +0000
+Processing by Api::TagsController#tagevents as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mTag Load (0.2ms)[0m  [1mSELECT  "tags".* FROM "tags"  WHERE "tags"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 12ms (Views: 0.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/api/tags/1/events" for 194.47.173.3 at 2015-03-22 15:58:51 +0000
+Processing by Api::TagsController#tagevents as */*
+  Parameters: {"id"=>"1"}
+  [1m[35mTag Load (0.2ms)[0m  SELECT  "tags".* FROM "tags"  WHERE "tags"."id" = ? LIMIT 1  [["id", 1]]
+Completed 500 Internal Server Error in 7ms
+
+NoMethodError (undefined method `events' for #<Tag:0x007fb8c89daf20>):
+  app/controllers/api/tags_controller.rb:10:in `tagevents'
+
+
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (20.8ms)
+
+
+Started GET "/api/tags/1/events" for 194.47.173.3 at 2015-03-22 15:58:57 +0000
+Processing by Api::TagsController#tagevents as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mTag Load (0.2ms)[0m  [1mSELECT  "tags".* FROM "tags"  WHERE "tags"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 12ms (Views: 0.1ms | ActiveRecord: 0.8ms)
+  [1m[36mEvent Load (2.1ms)[0m  [1mSELECT "events".* FROM "events"[0m
+
+
+Started GET "/api/tags/1" for 194.47.173.3 at 2015-03-22 15:59:53 +0000
+
+AbstractController::ActionNotFound (The action 'show' could not be found for Api::TagsController):
+  actionpack (4.1.0) lib/abstract_controller/base.rb:131:in `process'
+  actionview (4.1.0) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.1.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.0) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.0) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (0.5ms)
+
+
+Started GET "/api/tags/1/events" for 194.47.173.3 at 2015-03-22 16:00:02 +0000
+Processing by Api::TagsController#tagevents as */*
+  Parameters: {"id"=>"1"}
+  [1m[35mTag Load (0.2ms)[0m  SELECT  "tags".* FROM "tags"  WHERE "tags"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 3ms (Views: 0.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/tags/1/events" for 194.47.173.3 at 2015-03-22 16:00:30 +0000
+Processing by Api::TagsController#tagevents as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mTag Load (0.2ms)[0m  [1mSELECT  "tags".* FROM "tags"  WHERE "tags"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 500 Internal Server Error in 52ms
+
+ActiveRecord::StatementInvalid (Could not find table 'events_tags'):
+  app/controllers/api/tags_controller.rb:10:in `tagevents'
+
+
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (22.9ms)
+
+
+Started GET "/api/tags/1/events" for 194.47.173.3 at 2015-03-22 16:01:11 +0000
+Processing by Api::TagsController#tagevents as */*
+  Parameters: {"id"=>"1"}
+  [1m[35mTag Load (0.2ms)[0m  SELECT  "tags".* FROM "tags"  WHERE "tags"."id" = ? LIMIT 1  [["id", 1]]
+Completed 500 Internal Server Error in 3ms
+
+ActiveRecord::StatementInvalid (Could not find table 'events_tags'):
+  app/controllers/api/tags_controller.rb:10:in `tagevents'
+
+
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (22.9ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreatePositions (20150306123338)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.6ms)[0m  [1mDROP TABLE "positions"[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = '20150306123338'
+  [1m[36m (533.3ms)[0m  [1mcommit transaction[0m
+Migrating to CreateEvents (20150306123316)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.5ms)[0m  [1mDROP TABLE "events"[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = '20150306123316'
+  [1m[36m (12.5ms)[0m  [1mcommit transaction[0m
+Migrating to CreateUsers (20150127121807)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mDROP TABLE "users"[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = '20150127121807'
+  [1m[36m (11.6ms)[0m  [1mcommit transaction[0m
+Migrating to CreateTags (20150126143112)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mDROP TABLE "tags"[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = '20150126143112'
+  [1m[36m (13.5ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateTags (20150126143112)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.6ms)[0m  [1mCREATE TABLE "tags" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150126143112"]]
+  [1m[36m (24.4ms)[0m  [1mcommit transaction[0m
+Migrating to CreateUsers (20150127121807)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "username" varchar(255), "email" varchar(255), "password_digest" varchar(255) NOT NULL, "api_key" varchar(255), "admin_auth" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150127121807"]]
+  [1m[36m (11.8ms)[0m  [1mcommit transaction[0m
+Migrating to CreateEvents (20150306123316)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mCREATE TABLE "events" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "userID" integer, "positionID" integer, "tagID" integer, "description" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150306123316"]]
+  [1m[36m (12.2ms)[0m  [1mcommit transaction[0m
+Migrating to CreatePositions (20150306123338)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mCREATE TABLE "positions" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "longitude" float, "latitude" float, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150306123338"]]
+  [1m[36m (11.8ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/api/tags/1/events" for 194.47.173.3 at 2015-03-22 16:03:13 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Api::TagsController#tagevents as */*
+  Parameters: {"id"=>"1"}
+  [1m[35mTag Load (0.2ms)[0m  SELECT  "tags".* FROM "tags"  WHERE "tags"."id" = ? LIMIT 1  [["id", 1]]
+Completed 404 Not Found in 34ms
+
+ActiveRecord::RecordNotFound (Couldn't find Tag with 'id'=1):
+  app/controllers/api/tags_controller.rb:9:in `tagevents'
+
+
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (22.5ms)
+
+
+Started GET "/api/tags/1/events" for 194.47.173.3 at 2015-03-22 16:03:15 +0000
+Processing by Api::TagsController#tagevents as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mTag Load (0.2ms)[0m  [1mSELECT  "tags".* FROM "tags"  WHERE "tags"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 404 Not Found in 1ms
+
+ActiveRecord::RecordNotFound (Couldn't find Tag with 'id'=1):
+  app/controllers/api/tags_controller.rb:9:in `tagevents'
+
+
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (20.7ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."username" = 'Sandra' LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users"  WHERE "users"."email" = 'sandra@mail.com' LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "users" ("api_key", "created_at", "email", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?)[0m  [["api_key", "82a115733d5401ca9bbd7564b3ad45ce"], ["created_at", "2015-03-22 16:07:40.101709"], ["email", "sandra@mail.com"], ["password_digest", "$2a$10$AwUPzaoXrbrklHnLAn/QZ.KbTV.pvj2Jfa4OLUblX3MQO3JXL3P82"], ["updated_at", "2015-03-22 16:07:40.101709"], ["username", "Sandra"]]
+  [1m[35m (28.1ms)[0m  commit transaction
+  [1m[36mUser Load (2.0ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "tags" ("created_at", "name", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", "2015-03-22 16:08:38.435234"], ["name", "Grillning"], ["updated_at", "2015-03-22 16:08:38.435234"]]
+  [1m[35m (22.2ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "tags" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", "2015-03-22 16:08:56.478836"], ["name", "Jakt/Fiske"], ["updated_at", "2015-03-22 16:08:56.478836"]]
+  [1m[36m (20.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "tags" ("created_at", "name", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", "2015-03-22 16:09:14.766417"], ["name", "Övrigt"], ["updated_at", "2015-03-22 16:09:14.766417"]]
+  [1m[35m (27.1ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "positions" ("created_at", "latitude", "longitude", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", "2015-03-22 16:09:57.926290"], ["latitude", 53.6544], ["longitude", 55.6764], ["updated_at", "2015-03-22 16:09:57.926290"]]
+  [1m[36m (123.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "positions" ("created_at", "latitude", "longitude", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", "2015-03-22 16:10:28.095651"], ["latitude", 65.3424], ["longitude", 23.6544], ["updated_at", "2015-03-22 16:10:28.095651"]]
+  [1m[35m (30.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "events" ("created_at", "description", "positionID", "tagID", "updated_at", "userID") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", "2015-03-22 16:11:30.479740"], ["description", "Grillning på Kalmar Nyckel, det bjuds på korvar!"], ["positionID", 1], ["tagID", 1], ["updated_at", "2015-03-22 16:11:30.479740"], ["userID", 1]]
+  [1m[36m (25.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "events" ("created_at", "description", "positionID", "tagID", "updated_at", "userID") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2015-03-22 16:11:53.904651"], ["description", "Grillning på Sveaplan."], ["positionID", 2], ["tagID", 1], ["updated_at", "2015-03-22 16:11:53.904651"], ["userID", 1]]
+  [1m[35m (56.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "events" ("created_at", "description", "positionID", "tagID", "updated_at", "userID") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", "2015-03-22 16:12:26.977217"], ["description", "Fiskeresa till Helsingborg, ta med en fin fiskehatt!"], ["positionID", 2], ["tagID", 2], ["updated_at", "2015-03-22 16:12:26.977217"], ["userID", 1]]
+  [1m[36m (92.2ms)[0m  [1mcommit transaction[0m
+
+
+Started GET "/api/tags/1/events" for 194.47.173.3 at 2015-03-22 16:12:37 +0000
+Processing by Api::TagsController#tagevents as */*
+  Parameters: {"id"=>"1"}
+  [1m[35mTag Load (0.2ms)[0m  SELECT  "tags".* FROM "tags"  WHERE "tags"."id" = ? LIMIT 1  [["id", 1]]
+Completed 500 Internal Server Error in 29ms
+
+ActiveRecord::StatementInvalid (Could not find table 'events_tags'):
+  app/controllers/api/tags_controller.rb:10:in `tagevents'
+
+
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (22.6ms)
+
+
+Started GET "/api/tags/1/events" for 194.47.173.3 at 2015-03-22 16:13:58 +0000
+Processing by Api::TagsController#tagevents as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mTag Load (0.2ms)[0m  [1mSELECT  "tags".* FROM "tags"  WHERE "tags"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 500 Internal Server Error in 16ms
+
+ActiveRecord::StatementInvalid (Could not find table 'events_tags'):
+  app/controllers/api/tags_controller.rb:10:in `tagevents'
+
+
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.9ms)
+
+
+Started GET "/api/tags/1/events" for 194.47.173.3 at 2015-03-22 16:14:45 +0000
+Processing by Api::TagsController#tagevents as */*
+  Parameters: {"id"=>"1"}
+  [1m[35mTag Load (0.2ms)[0m  SELECT  "tags".* FROM "tags"  WHERE "tags"."id" = ? LIMIT 1  [["id", 1]]
+Completed 500 Internal Server Error in 11ms
+
+NoMethodError (undefined method `events' for #<Tag:0x007f4af96804c0>):
+  app/controllers/api/tags_controller.rb:10:in `tagevents'
+
+
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (22.4ms)
+
+
+Started GET "/api/tags/1/events" for 194.47.173.3 at 2015-03-22 16:14:55 +0000
+Processing by Api::TagsController#tagevents as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mTag Load (0.2ms)[0m  [1mSELECT  "tags".* FROM "tags"  WHERE "tags"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 500 Internal Server Error in 16ms
+
+ActiveRecord::StatementInvalid (Could not find table 'events_tags'):
+  app/controllers/api/tags_controller.rb:10:in `tagevents'
+
+
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.1ms)
+
+
+Started GET "/api/tags/1/events" for 194.47.173.3 at 2015-03-22 16:15:07 +0000
+Processing by Api::TagsController#tagevents as */*
+  Parameters: {"id"=>"1"}
+  [1m[35mTag Load (0.2ms)[0m  SELECT  "tags".* FROM "tags"  WHERE "tags"."id" = ? LIMIT 1  [["id", 1]]
+Completed 500 Internal Server Error in 16ms
+
+ActiveRecord::StatementInvalid (Could not find table 'events_tags'):
+  app/controllers/api/tags_controller.rb:10:in `tagevents'
+
+
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (22.2ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateRelationsTable (20150322161917)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateRelationsTable (20150322161917)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateRelationsTable (20150322161917)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.6ms)[0m  [1mCREATE TABLE "events_tags" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "event_id" integer, "tags_id" integer) [0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150322161917"]]
+  [1m[36m (24.2ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/api/tags/1/events" for 194.47.173.3 at 2015-03-22 16:35:09 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Api::TagsController#tagevents as */*
+  Parameters: {"id"=>"1"}
+  [1m[35mTag Load (0.2ms)[0m  SELECT  "tags".* FROM "tags"  WHERE "tags"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mEvent Load (0.3ms)[0m  [1mSELECT "events".* FROM "events" INNER JOIN "events_tags" ON "events"."id" = "events_tags"."event_id" WHERE "events_tags"."tag_id" = ?[0m  [[nil, 1]]
+SQLite3::SQLException: no such column: events_tags.tag_id: SELECT "events".* FROM "events" INNER JOIN "events_tags" ON "events"."id" = "events_tags"."event_id" WHERE "events_tags"."tag_id" = ?
+Completed 500 Internal Server Error in 25ms
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such column: events_tags.tag_id: SELECT "events".* FROM "events" INNER JOIN "events_tags" ON "events"."id" = "events_tags"."event_id" WHERE "events_tags"."tag_id" = ?):
+  app/controllers/api/tags_controller.rb:10:in `tagevents'
+
+
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.0ms)
+  [1m[36m (25.9ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (13.5ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateTags (20150126143112)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.5ms)[0m  [1mCREATE TABLE "tags" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150126143112"]]
+  [1m[36m (25.0ms)[0m  [1mcommit transaction[0m
+Migrating to CreateUsers (20150127121807)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "username" varchar(255), "email" varchar(255), "password_digest" varchar(255) NOT NULL, "api_key" varchar(255), "admin_auth" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150127121807"]]
+  [1m[36m (14.2ms)[0m  [1mcommit transaction[0m
+Migrating to CreateEvents (20150306123316)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mCREATE TABLE "events" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "userID" integer, "positionID" integer, "tagID" integer, "description" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150306123316"]]
+  [1m[36m (12.1ms)[0m  [1mcommit transaction[0m
+Migrating to CreatePositions (20150306123338)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mCREATE TABLE "positions" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "longitude" float, "latitude" float, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150306123338"]]
+  [1m[36m (11.2ms)[0m  [1mcommit transaction[0m
+Migrating to CreateRelationsTable (20150322161917)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mCREATE TABLE "events_tags" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "event_id" integer, "tags_id" integer) [0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150322161917"]]
+  [1m[36m (466.2ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/api/tags/1/events" for 194.47.173.3 at 2015-03-22 16:37:58 +0000
+Processing by Api::TagsController#tagevents as */*
+  Parameters: {"id"=>"1"}
+  [1m[35mTag Load (0.2ms)[0m  SELECT  "tags".* FROM "tags"  WHERE "tags"."id" = ? LIMIT 1  [["id", 1]]
+Completed 404 Not Found in 7ms
+
+ActiveRecord::RecordNotFound (Couldn't find Tag with 'id'=1):
+  app/controllers/api/tags_controller.rb:9:in `tagevents'
+
+
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.0ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."username" = 'Sandra' LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users"  WHERE "users"."email" = 'sandra@mail.com' LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "users" ("api_key", "created_at", "email", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?)[0m  [["api_key", "d7448835d25eb4efc773003397a7a9e5"], ["created_at", "2015-03-22 16:38:15.068287"], ["email", "sandra@mail.com"], ["password_digest", "$2a$10$e.E3okCsWE4GDz.jwHjmeePxjJNboOEzMr4lbukxUsk89ppJwLW/C"], ["updated_at", "2015-03-22 16:38:15.068287"], ["username", "Sandra"]]
+  [1m[35m (34.7ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."username" = 'Sandra' LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users"  WHERE "users"."email" = 'sandra@mail.com' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."username" = 'Hasse' LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users"  WHERE "users"."email" = 'hasse@mail.com' LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "users" ("api_key", "created_at", "email", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?)[0m  [["api_key", "d8b384e5e719a31800c9f5b8bedfc756"], ["created_at", "2015-03-22 16:42:17.124054"], ["email", "hasse@mail.com"], ["password_digest", "$2a$10$4lm3VUJZDU.x5EN/v48OQuHvLgNC4bowMytwDEJMBPeedrP8ShNqa"], ["updated_at", "2015-03-22 16:42:17.124054"], ["username", "Hasse"]]
+  [1m[35m (51.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "tags" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", "2015-03-22 16:42:17.190828"], ["name", "Jakt/Fiske"], ["updated_at", "2015-03-22 16:42:17.190828"]]
+  [1m[36m (11.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "tags" ("created_at", "name", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", "2015-03-22 16:42:17.203635"], ["name", "Grillning"], ["updated_at", "2015-03-22 16:42:17.203635"]]
+  [1m[35m (11.2ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "positions" ("created_at", "latitude", "longitude", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", "2015-03-22 16:42:17.220878"], ["latitude", 55.2345], ["longitude", 45.6544], ["updated_at", "2015-03-22 16:42:17.220878"]]
+  [1m[36m (13.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "positions" ("created_at", "latitude", "longitude", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", "2015-03-22 16:42:17.235727"], ["latitude", 58.4511], ["longitude", 33.6874], ["updated_at", "2015-03-22 16:42:17.235727"]]
+  [1m[35m (12.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "events" ("created_at", "description", "positionID", "tagID", "updated_at", "userID") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", "2015-03-22 16:42:17.261842"], ["description", "Fiskeresa till Helsingborg"], ["positionID", 1], ["tagID", 1], ["updated_at", "2015-03-22 16:42:17.261842"], ["userID", 1]]
+  [1m[36m (11.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "events" ("created_at", "description", "positionID", "tagID", "updated_at", "userID") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2015-03-22 16:42:17.275376"], ["description", "Vildsvinsjakt kl 17.00, ta på dig en färgstark mössa!"], ["positionID", 2], ["tagID", 1], ["updated_at", "2015-03-22 16:42:17.275376"], ["userID", 1]]
+  [1m[35m (10.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "events" ("created_at", "description", "positionID", "tagID", "updated_at", "userID") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", "2015-03-22 16:42:17.287925"], ["description", "Grillning på Sveaplan, vi bjuder på korv!"], ["positionID", 2], ["tagID", 2], ["updated_at", "2015-03-22 16:42:17.287925"], ["userID", 1]]
+  [1m[36m (11.5ms)[0m  [1mcommit transaction[0m
+  [1m[36mEvent Load (2.4ms)[0m  [1mSELECT "events".* FROM "events"[0m
+
+
+Started GET "/api/tags/1/events" for 194.47.173.3 at 2015-03-22 16:42:32 +0000
+Processing by Api::TagsController#tagevents as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mTag Load (0.2ms)[0m  [1mSELECT  "tags".* FROM "tags"  WHERE "tags"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mEvent Load (0.3ms)[0m  SELECT "events".* FROM "events" INNER JOIN "events_tags" ON "events"."id" = "events_tags"."event_id" WHERE "events_tags"."tag_id" = ?  [[nil, 1]]
+SQLite3::SQLException: no such column: events_tags.tag_id: SELECT "events".* FROM "events" INNER JOIN "events_tags" ON "events"."id" = "events_tags"."event_id" WHERE "events_tags"."tag_id" = ?
+Completed 500 Internal Server Error in 13ms
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such column: events_tags.tag_id: SELECT "events".* FROM "events" INNER JOIN "events_tags" ON "events"."id" = "events_tags"."event_id" WHERE "events_tags"."tag_id" = ?):
+  app/controllers/api/tags_controller.rb:10:in `tagevents'
+
+
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (20.8ms)
+  [1m[36m (21.9ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (11.5ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateTags (20150126143112)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.6ms)[0m  [1mCREATE TABLE "tags" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150126143112"]]
+  [1m[36m (23.7ms)[0m  [1mcommit transaction[0m
+Migrating to CreateUsers (20150127121807)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "username" varchar(255), "email" varchar(255), "password_digest" varchar(255) NOT NULL, "api_key" varchar(255), "admin_auth" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150127121807"]]
+  [1m[36m (12.4ms)[0m  [1mcommit transaction[0m
+Migrating to CreateEvents (20150306123316)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mCREATE TABLE "events" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "userID" integer, "positionID" integer, "tagID" integer, "description" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150306123316"]]
+  [1m[36m (13.0ms)[0m  [1mcommit transaction[0m
+Migrating to CreatePositions (20150306123338)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mCREATE TABLE "positions" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "longitude" float, "latitude" float, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150306123338"]]
+  [1m[36m (12.0ms)[0m  [1mcommit transaction[0m
+Migrating to CreateRelationsTable (20150322161917)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.3ms)[0m  [1mCREATE TABLE "events_tags" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "event_id" integer, "tag_id" integer) [0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150322161917"]]
+  [1m[36m (12.4ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."username" = 'Hasse' LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users"  WHERE "users"."email" = 'hasse@mail.com' LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "users" ("api_key", "created_at", "email", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?)[0m  [["api_key", "0aed1a6466ac1e178c1100601f904f25"], ["created_at", "2015-03-22 16:45:02.348893"], ["email", "hasse@mail.com"], ["password_digest", "$2a$10$CXxOgPZjIq3bmQBe5nuKrusxaY7OwKBGnryucS4ngBja2jSw4.xnG"], ["updated_at", "2015-03-22 16:45:02.348893"], ["username", "Hasse"]]
+  [1m[35m (35.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "tags" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", "2015-03-22 16:45:02.404409"], ["name", "Jakt/Fiske"], ["updated_at", "2015-03-22 16:45:02.404409"]]
+  [1m[36m (13.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "tags" ("created_at", "name", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", "2015-03-22 16:45:02.420143"], ["name", "Grillning"], ["updated_at", "2015-03-22 16:45:02.420143"]]
+  [1m[35m (11.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "positions" ("created_at", "latitude", "longitude", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", "2015-03-22 16:45:02.439025"], ["latitude", 55.2345], ["longitude", 45.6544], ["updated_at", "2015-03-22 16:45:02.439025"]]
+  [1m[36m (24.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "positions" ("created_at", "latitude", "longitude", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", "2015-03-22 16:45:02.465303"], ["latitude", 58.4511], ["longitude", 33.6874], ["updated_at", "2015-03-22 16:45:02.465303"]]
+  [1m[35m (22.1ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "events" ("created_at", "description", "positionID", "tagID", "updated_at", "userID") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", "2015-03-22 16:45:02.505818"], ["description", "Fiskeresa till Helsingborg"], ["positionID", 1], ["tagID", 1], ["updated_at", "2015-03-22 16:45:02.505818"], ["userID", 1]]
+  [1m[36m (18.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "events" ("created_at", "description", "positionID", "tagID", "updated_at", "userID") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2015-03-22 16:45:02.527447"], ["description", "Vildsvinsjakt kl 17.00, ta på dig en färgstark mössa!"], ["positionID", 2], ["tagID", 1], ["updated_at", "2015-03-22 16:45:02.527447"], ["userID", 1]]
+  [1m[35m (13.2ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "events" ("created_at", "description", "positionID", "tagID", "updated_at", "userID") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", "2015-03-22 16:45:02.543043"], ["description", "Grillning på Sveaplan, vi bjuder på korv!"], ["positionID", 2], ["tagID", 2], ["updated_at", "2015-03-22 16:45:02.543043"], ["userID", 1]]
+  [1m[36m (14.6ms)[0m  [1mcommit transaction[0m
+
+
+Started GET "/api/tags/1/events" for 194.47.173.3 at 2015-03-22 16:45:06 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Api::TagsController#tagevents as */*
+  Parameters: {"id"=>"1"}
+  [1m[35mTag Load (0.2ms)[0m  SELECT  "tags".* FROM "tags"  WHERE "tags"."id" = ? LIMIT 1  [["id", 1]]
+Completed 500 Internal Server Error in 10ms
+
+NoMethodError (undefined method `event' for #<Tag:0x007f4af96d2f18>):
+  app/controllers/api/tags_controller.rb:10:in `tagevents'
+
+
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.6ms)
+
+
+Started GET "/api/tags/1/events" for 194.47.173.3 at 2015-03-22 16:45:13 +0000
+Processing by Api::TagsController#tagevents as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mTag Load (0.2ms)[0m  [1mSELECT  "tags".* FROM "tags"  WHERE "tags"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mEvent Load (0.2ms)[0m  SELECT "events".* FROM "events" INNER JOIN "events_tags" ON "events"."id" = "events_tags"."event_id" WHERE "events_tags"."tag_id" = ?  [["tag_id", 1]]
+Completed 200 OK in 18ms (Views: 1.4ms | ActiveRecord: 1.5ms)
+  [1m[36mEvent Load (2.1ms)[0m  [1mSELECT "events".* FROM "events"[0m
+
+
+Started GET "/api/events" for 194.47.173.3 at 2015-03-22 16:46:29 +0000
+Processing by Api::EventsController#index as */*
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."api_key" = '6c1ec423a2b5448f89660cd8f1167e0c' LIMIT 1[0m
+Filter chain halted as :api_authenticate rendered or redirected
+Completed 400 Bad Request in 10ms (Views: 0.2ms | ActiveRecord: 0.6ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users"
+
+
+Started GET "/api/events" for 194.47.173.3 at 2015-03-22 16:46:44 +0000
+Processing by Api::EventsController#index as */*
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."api_key" = '0aed1a6466ac1e178c1100601f904f25' LIMIT 1
+  [1m[36mEvent Load (0.3ms)[0m  [1mSELECT  "events".* FROM "events"   ORDER BY "events"."created_at" DESC LIMIT 20 OFFSET 0[0m
+Completed 200 OK in 10ms (Views: 6.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/api/events/1" for 194.47.173.3 at 2015-03-22 16:46:53 +0000
+Processing by Api::EventsController#show as */*
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."api_key" = '0aed1a6466ac1e178c1100601f904f25' LIMIT 1
+  [1m[36mEvent Load (0.2ms)[0m  [1mSELECT  "events".* FROM "events"  WHERE "events"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 4ms (Views: 0.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/api/tags" for 194.47.173.3 at 2015-03-22 16:47:01 +0000
+Processing by Api::TagsController#index as */*
+Completed 500 Internal Server Error in 7ms
+
+ActionView::MissingTemplate (Missing template api/tags/index, application/index with {:locale=>[:en], :formats=>[:html, :text, :js, :css, :ics, :csv, :vcf, :png, :jpeg, :gif, :bmp, :tiff, :mpeg, :xml, :rss, :atom, :yaml, :multipart_form, :url_encoded_form, :json, :pdf, :zip], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/action/WebbAPI/app/views"
+):
+  actionview (4.1.0) lib/action_view/path_set.rb:46:in `find'
+  actionview (4.1.0) lib/action_view/lookup_context.rb:124:in `find'
+  actionview (4.1.0) lib/action_view/renderer/abstract_renderer.rb:18:in `find_template'
+  actionview (4.1.0) lib/action_view/renderer/template_renderer.rb:41:in `determine_template'
+  actionview (4.1.0) lib/action_view/renderer/template_renderer.rb:8:in `render'
+  actionview (4.1.0) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.1.0) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.1.0) lib/action_view/rendering.rb:99:in `_render_template'
+  actionpack (4.1.0) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.1.0) lib/action_view/rendering.rb:82:in `render_to_body'
+  actionpack (4.1.0) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.1.0) lib/action_controller/metal/renderers.rb:32:in `render_to_body'
+  actionpack (4.1.0) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.1.0) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.1.0) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.1.0) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+  activesupport (4.1.0) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.1.0) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.1.0) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.1.0) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.1.0) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.1.0) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.1.0) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.1.0) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.1.0) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.1.0) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:113:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:113:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:229:in `block in halting'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:229:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:229:in `block in halting'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:86:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:86:in `run_callbacks'
+  actionpack (4.1.0) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.1.0) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.1.0) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.1.0) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.0) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.1.0) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.1.0) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.1.0) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.1.0) lib/abstract_controller/base.rb:136:in `process'
+  actionview (4.1.0) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.1.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.0) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.0) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (0.6ms)
+
+
+Started GET "/api/tags" for 194.47.173.3 at 2015-03-22 16:47:34 +0000
+Processing by Api::TagsController#index as */*
+  [1m[35mTag Load (0.5ms)[0m  SELECT "tags".* FROM "tags"   ORDER BY "tags"."created_at" DESC
+Completed 200 OK in 19ms (Views: 12.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/api/tags/1" for 194.47.173.3 at 2015-03-22 16:47:47 +0000
+
+AbstractController::ActionNotFound (The action 'show' could not be found for Api::TagsController):
+  actionpack (4.1.0) lib/abstract_controller/base.rb:131:in `process'
+  actionview (4.1.0) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.1.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.0) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.0) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (0.6ms)
+
+
+Started GET "/api/tags/1" for 194.47.173.3 at 2015-03-22 16:49:22 +0000
+Processing by Api::TagsController#show as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mTag Load (0.2ms)[0m  [1mSELECT  "tags".* FROM "tags"  WHERE "tags"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 11ms (Views: 0.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/api/tags/1/events" for 194.47.173.3 at 2015-03-22 16:49:31 +0000
+Processing by Api::TagsController#tagevents as */*
+  Parameters: {"id"=>"1"}
+  [1m[35mTag Load (0.1ms)[0m  SELECT  "tags".* FROM "tags"  WHERE "tags"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mEvent Load (0.2ms)[0m  [1mSELECT "events".* FROM "events" INNER JOIN "events_tags" ON "events"."id" = "events_tags"."event_id" WHERE "events_tags"."tag_id" = ?[0m  [["tag_id", 1]]
+Completed 200 OK in 14ms (Views: 1.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/api/tags/1/events" for 194.47.173.3 at 2015-03-22 16:50:31 +0000
+Processing by Api::TagsController#tagevents as */*
+  Parameters: {"id"=>"1"}
+  [1m[35mTag Load (0.2ms)[0m  SELECT  "tags".* FROM "tags"  WHERE "tags"."id" = ? LIMIT 1  [["id", 1]]
+Completed 500 Internal Server Error in 10ms
+
+NoMethodError (undefined method `event' for #<Tag:0x007f4af8b933a0>):
+  app/controllers/api/tags_controller.rb:20:in `tagevents'
+
+
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (20.9ms)
+
+
+Started GET "/api/tags/1/events" for 194.47.173.3 at 2015-03-22 16:50:35 +0000
+Processing by Api::TagsController#tagevents as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mTag Load (0.2ms)[0m  [1mSELECT  "tags".* FROM "tags"  WHERE "tags"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mEvent Load (0.2ms)[0m  SELECT "events".* FROM "events" INNER JOIN "events_tags" ON "events"."id" = "events_tags"."event_id" WHERE "events_tags"."tag_id" = ?  [["tag_id", 1]]
+Completed 200 OK in 27ms (Views: 1.2ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/api/tags/1/events" for 194.47.173.3 at 2015-03-22 16:53:49 +0000
+Processing by Api::TagsController#tagevents as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mTag Load (0.2ms)[0m  [1mSELECT  "tags".* FROM "tags"  WHERE "tags"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 10ms (Views: 0.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/api/tags/1/events" for 194.47.173.3 at 2015-03-22 16:54:02 +0000
+Processing by Api::TagsController#tagevents as */*
+  Parameters: {"id"=>"1"}
+  [1m[35mTag Load (0.2ms)[0m  SELECT  "tags".* FROM "tags"  WHERE "tags"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mEvent Load (0.2ms)[0m  [1mSELECT "events".* FROM "events" INNER JOIN "events_tags" ON "events"."id" = "events_tags"."event_id" WHERE "events_tags"."tag_id" = ?[0m  [["tag_id", 1]]
+Completed 200 OK in 19ms (Views: 1.1ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/api/tags/1/events" for 194.47.173.3 at 2015-03-22 16:57:28 +0000
+Processing by Api::TagsController#tagevents as */*
+  Parameters: {"id"=>"1"}
+  [1m[35mTag Load (0.2ms)[0m  SELECT  "tags".* FROM "tags"  WHERE "tags"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 10ms (Views: 0.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/api/tags/1/events" for 194.47.173.3 at 2015-03-22 16:57:45 +0000
+Processing by Api::TagsController#tagevents as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mTag Load (0.3ms)[0m  [1mSELECT  "tags".* FROM "tags"  WHERE "tags"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mEvent Load (0.2ms)[0m  SELECT "events".* FROM "events" INNER JOIN "events_tags" ON "events"."id" = "events_tags"."event_id" WHERE "events_tags"."tag_id" = ?  [["tag_id", 1]]
+Completed 200 OK in 18ms (Views: 1.0ms | ActiveRecord: 1.5ms)
+  [1m[36mEvent Load (0.3ms)[0m  [1mSELECT "events".* FROM "events"[0m
+
+
+Started GET "/api/tags/1/events" for 194.47.173.3 at 2015-03-22 17:00:52 +0000
+Processing by Api::TagsController#tagevents as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mTag Load (0.2ms)[0m  [1mSELECT  "tags".* FROM "tags"  WHERE "tags"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 500 Internal Server Error in 11ms
+
+NoMethodError (undefined method `event' for #<Tag:0x007f4af9035930>):
+  app/controllers/api/tags_controller.rb:20:in `tagevents'
+
+
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.8ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (91.4ms)
+  [1m[36m (19.2ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (15.5ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateTags (20150126143112)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.5ms)[0m  [1mCREATE TABLE "tags" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150126143112"]]
+  [1m[36m (24.8ms)[0m  [1mcommit transaction[0m
+Migrating to CreateUsers (20150127121807)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "username" varchar(255), "email" varchar(255), "password_digest" varchar(255) NOT NULL, "api_key" varchar(255), "admin_auth" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150127121807"]]
+  [1m[36m (10.9ms)[0m  [1mcommit transaction[0m
+Migrating to CreateEvents (20150306123316)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.5ms)[0m  [1mCREATE TABLE "events" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer, "position_id" integer, "tag_id" integer, "description" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150306123316"]]
+  [1m[36m (11.9ms)[0m  [1mcommit transaction[0m
+Migrating to CreatePositions (20150306123338)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.5ms)[0m  [1mCREATE TABLE "positions" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "longitude" float, "latitude" float, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150306123338"]]
+  [1m[36m (11.9ms)[0m  [1mcommit transaction[0m
+Migrating to CreateRelationsTable (20150322161917)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.5ms)[0m  [1mCREATE TABLE "events_tags" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "event_id" integer, "tag_id" integer) [0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150322161917"]]
+  [1m[36m (11.0ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."username" = 'Hasse' LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users"  WHERE "users"."email" = 'hasse@mail.com' LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "users" ("api_key", "created_at", "email", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?)[0m  [["api_key", "2269f24d32061653afc48f56548dbce1"], ["created_at", "2015-03-22 17:03:06.130977"], ["email", "hasse@mail.com"], ["password_digest", "$2a$10$uXctnf5ani4DEZOb9ZlFyehsFqGiJ9y9b.mEkuQdfRGZUp0wpzva6"], ["updated_at", "2015-03-22 17:03:06.130977"], ["username", "Hasse"]]
+  [1m[35m (27.2ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "tags" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", "2015-03-22 17:03:06.174425"], ["name", "Jakt/Fiske"], ["updated_at", "2015-03-22 17:03:06.174425"]]
+  [1m[36m (14.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "tags" ("created_at", "name", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", "2015-03-22 17:03:06.191078"], ["name", "Grillning"], ["updated_at", "2015-03-22 17:03:06.191078"]]
+  [1m[35m (11.1ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "positions" ("created_at", "latitude", "longitude", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", "2015-03-22 17:03:06.208889"], ["latitude", 55.2345], ["longitude", 45.6544], ["updated_at", "2015-03-22 17:03:06.208889"]]
+  [1m[36m (12.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "positions" ("created_at", "latitude", "longitude", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", "2015-03-22 17:03:06.222863"], ["latitude", 58.4511], ["longitude", 33.6874], ["updated_at", "2015-03-22 17:03:06.222863"]]
+  [1m[35m (12.9ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."username" = 'Hasse' LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users"  WHERE "users"."email" = 'hasse@mail.com' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."username" = 'Sandra' LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users"  WHERE "users"."email" = 'sandra@mail.com' LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "users" ("api_key", "created_at", "email", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?)[0m  [["api_key", "1bf708eb03bd74f54541c805aa419c4d"], ["created_at", "2015-03-22 17:04:20.101214"], ["email", "sandra@mail.com"], ["password_digest", "$2a$10$PRN/3HimOiG4OPMuZ4Mr..w99HFy8d5KhqdTR5ii9AOS96yRw6mZe"], ["updated_at", "2015-03-22 17:04:20.101214"], ["username", "Sandra"]]
+  [1m[35m (29.2ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "tags" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", "2015-03-22 17:04:20.149310"], ["name", "Jakt/Fiske"], ["updated_at", "2015-03-22 17:04:20.149310"]]
+  [1m[36m (11.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "tags" ("created_at", "name", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", "2015-03-22 17:04:20.163057"], ["name", "Grillning"], ["updated_at", "2015-03-22 17:04:20.163057"]]
+  [1m[35m (14.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "positions" ("created_at", "latitude", "longitude", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", "2015-03-22 17:04:20.185029"], ["latitude", 55.2345], ["longitude", 45.6544], ["updated_at", "2015-03-22 17:04:20.185029"]]
+  [1m[36m (15.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "positions" ("created_at", "latitude", "longitude", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", "2015-03-22 17:04:20.202422"], ["latitude", 58.4511], ["longitude", 33.6874], ["updated_at", "2015-03-22 17:04:20.202422"]]
+  [1m[35m (12.3ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "events" ("created_at", "description", "position_id", "tag_id", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", "2015-03-22 17:04:20.228163"], ["description", "Fiskeresa till Helsingborg"], ["position_id", 1], ["tag_id", 1], ["updated_at", "2015-03-22 17:04:20.228163"], ["user_id", 1]]
+  [1m[36m (14.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "events" ("created_at", "description", "position_id", "tag_id", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2015-03-22 17:04:20.244940"], ["description", "Vildsvinsjakt kl 17.00, ta på dig en färgstark mössa!"], ["position_id", 2], ["tag_id", 1], ["updated_at", "2015-03-22 17:04:20.244940"], ["user_id", 1]]
+  [1m[35m (10.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "events" ("created_at", "description", "position_id", "tag_id", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", "2015-03-22 17:04:20.257535"], ["description", "Grillning på Sveaplan, vi bjuder på korv!"], ["position_id", 2], ["tag_id", 2], ["updated_at", "2015-03-22 17:04:20.257535"], ["user_id", 1]]
+  [1m[36m (11.9ms)[0m  [1mcommit transaction[0m
+  [1m[36mUser Load (2.1ms)[0m  [1mSELECT "users".* FROM "users"[0m
+
+
+Started GET "/api/tags/1/events" for 194.47.173.3 at 2015-03-22 17:04:41 +0000
+Processing by Api::TagsController#tagevents as */*
+  Parameters: {"id"=>"1"}
+  [1m[35mTag Load (0.2ms)[0m  SELECT  "tags".* FROM "tags"  WHERE "tags"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mEvent Load (0.2ms)[0m  [1mSELECT "events".* FROM "events" INNER JOIN "events_tags" ON "events"."id" = "events_tags"."event_id" WHERE "events_tags"."tag_id" = ?[0m  [["tag_id", 1]]
+Completed 200 OK in 19ms (Views: 1.1ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/api/tags/1/events" for 194.47.173.3 at 2015-03-22 17:06:58 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Api::TagsController#tagevents as */*
+  Parameters: {"id"=>"1"}
+  [1m[35mTag Load (0.3ms)[0m  SELECT  "tags".* FROM "tags"  WHERE "tags"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mEvent Load (0.2ms)[0m  [1mSELECT "events".* FROM "events" INNER JOIN "events_tags" ON "events"."id" = "events_tags"."event_id" WHERE "events_tags"."tag_id" = ?[0m  [["tag_id", 1]]
+Completed 200 OK in 74ms (Views: 9.2ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/api/tags/1" for 194.47.173.3 at 2015-03-22 17:07:53 +0000
+Processing by Api::TagsController#show as */*
+  Parameters: {"id"=>"1"}
+  [1m[35mTag Load (0.2ms)[0m  SELECT  "tags".* FROM "tags"  WHERE "tags"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 6ms (Views: 0.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/tags/1/events" for 194.47.173.3 at 2015-03-22 17:08:01 +0000
+Processing by Api::TagsController#tagevents as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mTag Load (0.2ms)[0m  [1mSELECT  "tags".* FROM "tags"  WHERE "tags"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mEvent Load (0.2ms)[0m  SELECT "events".* FROM "events" INNER JOIN "events_tags" ON "events"."id" = "events_tags"."event_id" WHERE "events_tags"."tag_id" = ?  [["tag_id", 1]]
+Completed 200 OK in 8ms (Views: 2.2ms | ActiveRecord: 0.4ms)
+  [1m[36m (27.8ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (13.6ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateTags (20150126143112)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.6ms)[0m  [1mCREATE TABLE "tags" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150126143112"]]
+  [1m[36m (26.8ms)[0m  [1mcommit transaction[0m
+Migrating to CreateUsers (20150127121807)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "username" varchar(255), "email" varchar(255), "password_digest" varchar(255) NOT NULL, "api_key" varchar(255), "admin_auth" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150127121807"]]
+  [1m[36m (13.8ms)[0m  [1mcommit transaction[0m
+Migrating to CreateEvents (20150306123316)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.5ms)[0m  [1mCREATE TABLE "events" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer, "position_id" integer, "tag_id" integer, "description" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150306123316"]]
+  [1m[36m (17.0ms)[0m  [1mcommit transaction[0m
+Migrating to CreatePositions (20150306123338)
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mCREATE TABLE "positions" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "longitude" float, "latitude" float, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150306123338"]]
+  [1m[36m (14.1ms)[0m  [1mcommit transaction[0m
+Migrating to CreateRelationsTable (20150322161917)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mCREATE TABLE "events_tags" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "event_id" integer, "tag_id" integer) [0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150322161917"]]
+  [1m[36m (13.3ms)[0m  [1mcommit transaction[0m
+Migrating to CreateCreators (20150322171503)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.3ms)[0m  [1mCREATE TABLE "creators" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150322171503"]]
+  [1m[36m (13.9ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."username" = 'Sandra' LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users"  WHERE "users"."email" = 'sandra@mail.com' LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "users" ("api_key", "created_at", "email", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?)[0m  [["api_key", "737acc78388257b07cab5cb2ad6b8a75"], ["created_at", "2015-03-22 17:21:43.111030"], ["email", "sandra@mail.com"], ["password_digest", "$2a$10$XNOa8jxefMvloiyCUMrBXuTjsgWZR01aiqd2Q8XD14GsR6L6KF9La"], ["updated_at", "2015-03-22 17:21:43.111030"], ["username", "Sandra"]]
+  [1m[35m (23.4ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "tags" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", "2015-03-22 17:21:43.150922"], ["name", "Jakt/Fiske"], ["updated_at", "2015-03-22 17:21:43.150922"]]
+  [1m[36m (13.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "tags" ("created_at", "name", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", "2015-03-22 17:21:43.166780"], ["name", "Grillning"], ["updated_at", "2015-03-22 17:21:43.166780"]]
+  [1m[35m (13.5ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "positions" ("created_at", "latitude", "longitude", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", "2015-03-22 17:21:43.187798"], ["latitude", 55.2345], ["longitude", 45.6544], ["updated_at", "2015-03-22 17:21:43.187798"]]
+  [1m[36m (12.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "positions" ("created_at", "latitude", "longitude", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", "2015-03-22 17:21:43.202289"], ["latitude", 58.4511], ["longitude", 33.6874], ["updated_at", "2015-03-22 17:21:43.202289"]]
+  [1m[35m (12.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "events" ("created_at", "description", "position_id", "tag_id", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", "2015-03-22 17:21:43.227038"], ["description", "Fiskeresa till Helsingborg"], ["position_id", 1], ["tag_id", 1], ["updated_at", "2015-03-22 17:21:43.227038"], ["user_id", 1]]
+  [1m[36m (14.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "events" ("created_at", "description", "position_id", "tag_id", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2015-03-22 17:21:43.243404"], ["description", "Vildsvinsjakt kl 17.00, ta på dig en färgstark mössa!"], ["position_id", 2], ["tag_id", 1], ["updated_at", "2015-03-22 17:21:43.243404"], ["user_id", 1]]
+  [1m[35m (13.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "events" ("created_at", "description", "position_id", "tag_id", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", "2015-03-22 17:21:43.258994"], ["description", "Grillning på Sveaplan, vi bjuder på korv!"], ["position_id", 2], ["tag_id", 2], ["updated_at", "2015-03-22 17:21:43.258994"], ["user_id", 1]]
+  [1m[36m (105.7ms)[0m  [1mcommit transaction[0m
+
+
+Started GET "/api/tags/1/events" for 194.47.173.3 at 2015-03-22 17:21:52 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Api::TagsController#tagevents as */*
+  Parameters: {"id"=>"1"}
+  [1m[35mTag Load (0.2ms)[0m  SELECT  "tags".* FROM "tags"  WHERE "tags"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mEvent Load (0.2ms)[0m  [1mSELECT "events".* FROM "events" INNER JOIN "events_tags" ON "events"."id" = "events_tags"."event_id" WHERE "events_tags"."tag_id" = ?[0m  [["tag_id", 1]]
+Completed 200 OK in 19ms (Views: 1.5ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/api/tags/1" for 194.47.173.3 at 2015-03-22 17:21:56 +0000
+Processing by Api::TagsController#show as */*
+  Parameters: {"id"=>"1"}
+  [1m[35mTag Load (0.2ms)[0m  SELECT  "tags".* FROM "tags"  WHERE "tags"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 5ms (Views: 0.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/tags/1/events" for 194.47.173.3 at 2015-03-22 17:22:01 +0000
+Processing by Api::TagsController#tagevents as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mTag Load (0.2ms)[0m  [1mSELECT  "tags".* FROM "tags"  WHERE "tags"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mEvent Load (0.1ms)[0m  SELECT "events".* FROM "events" INNER JOIN "events_tags" ON "events"."id" = "events_tags"."event_id" WHERE "events_tags"."tag_id" = ?  [["tag_id", 1]]
+Completed 200 OK in 5ms (Views: 1.0ms | ActiveRecord: 0.3ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (32.5ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (11.9ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateTags (20150126143112)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.6ms)[0m  [1mCREATE TABLE "tags" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150126143112"]]
+  [1m[36m (25.0ms)[0m  [1mcommit transaction[0m
+Migrating to CreateUsers (20150127121807)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "username" varchar(255), "email" varchar(255), "password_digest" varchar(255) NOT NULL, "api_key" varchar(255), "admin_auth" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150127121807"]]
+  [1m[36m (11.5ms)[0m  [1mcommit transaction[0m
+Migrating to CreateEvents (20150306123316)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mCREATE TABLE "events" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer, "position_id" integer, "tag_id" integer, "description" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150306123316"]]
+  [1m[36m (11.4ms)[0m  [1mcommit transaction[0m
+Migrating to CreatePositions (20150306123338)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mCREATE TABLE "positions" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "longitude" float, "latitude" float, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150306123338"]]
+  [1m[36m (11.0ms)[0m  [1mcommit transaction[0m
+Migrating to CreateRelationsTable (20150322161917)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.3ms)[0m  [1mCREATE TABLE "events_tags" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "event_id" integer, "tag_id" integer) [0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150322161917"]]
+  [1m[36m (10.7ms)[0m  [1mcommit transaction[0m
+Migrating to CreateCreators (20150322171503)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mCREATE TABLE "creators" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "username" varchar(255), "email" varchar(255), "password_digest" varchar(255) NOT NULL, "api_key" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150322171503"]]
+  [1m[36m (11.4ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."username" = 'Sandra' LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users"  WHERE "users"."email" = 'sandra@mail.com' LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "users" ("api_key", "created_at", "email", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?)[0m  [["api_key", "8407f92b0a30e00c64af6ba396e88a5c"], ["created_at", "2015-03-22 17:36:27.036248"], ["email", "sandra@mail.com"], ["password_digest", "$2a$10$eAJmvrBaU9eLMtFSyA8snOdyfHLJc4P9CdHvG3N80s2nHM9/jTVBW"], ["updated_at", "2015-03-22 17:36:27.036248"], ["username", "Sandra"]]
+  [1m[35m (15.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE "users"."username" = 'Mange' LIMIT 1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'mange@mail.com' LIMIT 1[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("api_key", "created_at", "email", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?)  [["api_key", "3f41ce85f4d01d9345a4045ecbd6ca52"], ["created_at", "2015-03-22 17:36:27.138172"], ["email", "mange@mail.com"], ["password_digest", "$2a$10$XhVPxCBzZBYcoXJKZO/sa.KCu6Y57SdK40mNqapC49ru.XMza6hM6"], ["updated_at", "2015-03-22 17:36:27.138172"], ["username", "Mange"]]
+  [1m[36m (11.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "tags" ("created_at", "name", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", "2015-03-22 17:36:27.163154"], ["name", "Jakt/Fiske"], ["updated_at", "2015-03-22 17:36:27.163154"]]
+  [1m[35m (16.3ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "tags" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", "2015-03-22 17:36:27.181277"], ["name", "Grillning"], ["updated_at", "2015-03-22 17:36:27.181277"]]
+  [1m[36m (14.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "positions" ("created_at", "latitude", "longitude", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", "2015-03-22 17:36:27.202899"], ["latitude", 55.2345], ["longitude", 45.6544], ["updated_at", "2015-03-22 17:36:27.202899"]]
+  [1m[35m (12.6ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "positions" ("created_at", "latitude", "longitude", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", "2015-03-22 17:36:27.217168"], ["latitude", 58.4511], ["longitude", 33.6874], ["updated_at", "2015-03-22 17:36:27.217168"]]
+  [1m[36m (11.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "events" ("created_at", "description", "position_id", "tag_id", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2015-03-22 17:36:27.240549"], ["description", "Fiskeresa till Helsingborg"], ["position_id", 1], ["tag_id", 1], ["updated_at", "2015-03-22 17:36:27.240549"], ["user_id", 1]]
+  [1m[35m (11.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "events" ("created_at", "description", "position_id", "tag_id", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", "2015-03-22 17:36:27.254259"], ["description", "Vildsvinsjakt kl 17.00, ta på dig en färgstark mössa!"], ["position_id", 2], ["tag_id", 1], ["updated_at", "2015-03-22 17:36:27.254259"], ["user_id", 1]]
+  [1m[36m (10.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "events" ("created_at", "description", "position_id", "tag_id", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2015-03-22 17:36:27.266830"], ["description", "Grillning på Sveaplan, vi bjuder på korv!"], ["position_id", 2], ["tag_id", 2], ["updated_at", "2015-03-22 17:36:27.266830"], ["user_id", 1]]
+  [1m[35m (13.3ms)[0m  commit transaction
+
+
+Started GET "/api/creators" for 194.47.173.3 at 2015-03-22 17:44:05 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+LoadError (Unable to autoload constant Api::CreatorsController, expected /home/action/WebbAPI/app/controllers/api/creators_controller.rb to define it):
+  activesupport (4.1.0) lib/active_support/dependencies.rb:481:in `load_missing_constant'
+  activesupport (4.1.0) lib/active_support/dependencies.rb:180:in `const_missing'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:240:in `const_get'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:240:in `block in constantize'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:236:in `each'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:236:in `inject'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:236:in `constantize'
+  activesupport (4.1.0) lib/active_support/dependencies.rb:552:in `get'
+  activesupport (4.1.0) lib/active_support/dependencies.rb:583:in `constantize'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:76:in `controller_reference'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:66:in `controller'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:44:in `call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.0) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/action/.parts/packages/ruby2.1/2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (19.9ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (49.6ms)
+
+
+Started GET "/api/creators" for 194.47.173.3 at 2015-03-22 17:44:15 +0000
+Processing by Api::CreatorsController#index as */*
+Completed 500 Internal Server Error in 6ms
+
+RuntimeError (In order to use respond_with, first you need to declare the formats your controller responds to in the class level.):
+  app/controllers/api/creators_controller.rb:5:in `index'
+
+
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (20.7ms)
+
+
+Started GET "/api/creators" for 194.47.173.3 at 2015-03-22 17:44:31 +0000
+Processing by Api::CreatorsController#index as */*
+  [1m[35mCreator Load (0.6ms)[0m  SELECT "creators".* FROM "creators"   ORDER BY "creators"."created_at" DESC
+Completed 200 OK in 6ms (Views: 0.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/api/events" for 194.47.173.3 at 2015-03-22 17:44:49 +0000
+Processing by Api::EventsController#index as */*
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."api_key" = '2269f24d32061653afc48f56548dbce1' LIMIT 1[0m
+Filter chain halted as :api_authenticate rendered or redirected
+Completed 400 Bad Request in 13ms (Views: 0.3ms | ActiveRecord: 0.6ms)
+  [1m[36mUser Load (2.2ms)[0m  [1mSELECT "users".* FROM "users"[0m
+
+
+Started GET "/api/events" for 194.47.173.3 at 2015-03-22 17:45:13 +0000
+Processing by Api::EventsController#index as */*
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."api_key" = '8407f92b0a30e00c64af6ba396e88a5c' LIMIT 1
+  [1m[36mEvent Load (0.3ms)[0m  [1mSELECT  "events".* FROM "events"   ORDER BY "events"."created_at" DESC LIMIT 20 OFFSET 0[0m
+Completed 200 OK in 18ms (Views: 7.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/creators" for 194.47.173.3 at 2015-03-22 17:45:20 +0000
+Processing by Api::CreatorsController#index as */*
+  [1m[35mCreator Load (0.3ms)[0m  SELECT "creators".* FROM "creators"   ORDER BY "creators"."created_at" DESC
+Completed 200 OK in 2ms (Views: 0.5ms | ActiveRecord: 0.3ms)
+  [1m[35mCreator Load (0.3ms)[0m  SELECT "creators".* FROM "creators"
+  [1m[36m (22.9ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (12.1ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateTags (20150126143112)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.5ms)[0m  [1mCREATE TABLE "tags" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150126143112"]]
+  [1m[36m (23.5ms)[0m  [1mcommit transaction[0m
+Migrating to CreateUsers (20150127121807)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "username" varchar(255), "email" varchar(255), "password_digest" varchar(255) NOT NULL, "api_key" varchar(255), "admin_auth" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150127121807"]]
+  [1m[36m (11.4ms)[0m  [1mcommit transaction[0m
+Migrating to CreateEvents (20150306123316)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mCREATE TABLE "events" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer, "position_id" integer, "tag_id" integer, "description" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150306123316"]]
+  [1m[36m (12.8ms)[0m  [1mcommit transaction[0m
+Migrating to CreatePositions (20150306123338)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mCREATE TABLE "positions" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "longitude" float, "latitude" float, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150306123338"]]
+  [1m[36m (10.3ms)[0m  [1mcommit transaction[0m
+Migrating to CreateRelationsTable (20150322161917)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.3ms)[0m  [1mCREATE TABLE "events_tags" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "event_id" integer, "tag_id" integer) [0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150322161917"]]
+  [1m[36m (10.3ms)[0m  [1mcommit transaction[0m
+Migrating to CreateCreators (20150322171503)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.3ms)[0m  [1mCREATE TABLE "creators" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "username" varchar(255), "email" varchar(255), "password_digest" varchar(255) NOT NULL, "api_key" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150322171503"]]
+  [1m[36m (11.0ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."username" = 'Sandra' LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users"  WHERE "users"."email" = 'sandra@mail.com' LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "users" ("api_key", "created_at", "email", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?)[0m  [["api_key", "cbc8185d69b13c438ac18085addfb5cb"], ["created_at", "2015-03-22 17:48:11.118992"], ["email", "sandra@mail.com"], ["password_digest", "$2a$10$MxF/RBkNjKGZY0fpitqOouUf3N2RqVdDkzfEvEB6sfOlDex2slRlK"], ["updated_at", "2015-03-22 17:48:11.118992"], ["username", "Sandra"]]
+  [1m[35m (27.2ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE "users"."username" = 'Mange' LIMIT 1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'mange@mail.com' LIMIT 1[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("api_key", "created_at", "email", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?)  [["api_key", "57d488089ac7695d88785156528ff485"], ["created_at", "2015-03-22 17:48:11.232012"], ["email", "mange@mail.com"], ["password_digest", "$2a$10$lghgbOG/JJysxD8L5MlaveYAyfI5.r6tiIbq8uQKcD9QY9cDVpr9e"], ["updated_at", "2015-03-22 17:48:11.232012"], ["username", "Mange"]]
+  [1m[36m (13.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "tags" ("created_at", "name", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", "2015-03-22 17:48:11.258187"], ["name", "Jakt/Fiske"], ["updated_at", "2015-03-22 17:48:11.258187"]]
+  [1m[35m (14.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "tags" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", "2015-03-22 17:48:11.274138"], ["name", "Grillning"], ["updated_at", "2015-03-22 17:48:11.274138"]]
+  [1m[36m (15.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "positions" ("created_at", "latitude", "longitude", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", "2015-03-22 17:48:11.296724"], ["latitude", 55.2345], ["longitude", 45.6544], ["updated_at", "2015-03-22 17:48:11.296724"]]
+  [1m[35m (11.6ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "positions" ("created_at", "latitude", "longitude", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", "2015-03-22 17:48:11.310191"], ["latitude", 58.4511], ["longitude", 33.6874], ["updated_at", "2015-03-22 17:48:11.310191"]]
+  [1m[36m (12.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "events" ("created_at", "description", "position_id", "tag_id", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2015-03-22 17:48:11.335458"], ["description", "Fiskeresa till Helsingborg"], ["position_id", 1], ["tag_id", 1], ["updated_at", "2015-03-22 17:48:11.335458"], ["user_id", 1]]
+  [1m[35m (11.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "events" ("created_at", "description", "position_id", "tag_id", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", "2015-03-22 17:48:11.349477"], ["description", "Vildsvinsjakt kl 17.00, ta på dig en färgstark mössa!"], ["position_id", 2], ["tag_id", 1], ["updated_at", "2015-03-22 17:48:11.349477"], ["user_id", 1]]
+  [1m[36m (12.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "events" ("created_at", "description", "position_id", "tag_id", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2015-03-22 17:48:11.363746"], ["description", "Grillning på Sveaplan, vi bjuder på korv!"], ["position_id", 2], ["tag_id", 2], ["updated_at", "2015-03-22 17:48:11.363746"], ["user_id", 1]]
+  [1m[35m (10.8ms)[0m  commit transaction
+  [1m[36mUser Load (2.3ms)[0m  [1mSELECT "users".* FROM "users"[0m
+
+
+Started GET "/api/creators" for 194.47.173.3 at 2015-03-22 17:48:27 +0000
+Processing by Api::CreatorsController#index as */*
+  [1m[36mCreator Load (0.5ms)[0m  [1mSELECT "creators".* FROM "creators"   ORDER BY "creators"."created_at" DESC[0m
+Completed 200 OK in 5ms (Views: 0.5ms | ActiveRecord: 0.5ms)
+  [1m[35mCreator Load (0.3ms)[0m  SELECT "creators".* FROM "creators"
+  [1m[36m (31.3ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (11.0ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateTags (20150126143112)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.7ms)[0m  [1mCREATE TABLE "tags" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150126143112"]]
+  [1m[36m (24.4ms)[0m  [1mcommit transaction[0m
+Migrating to CreateUsers (20150127121807)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "username" varchar(255), "email" varchar(255), "password_digest" varchar(255) NOT NULL, "api_key" varchar(255), "admin_auth" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150127121807"]]
+  [1m[36m (11.6ms)[0m  [1mcommit transaction[0m
+Migrating to CreateEvents (20150306123316)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mCREATE TABLE "events" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer, "position_id" integer, "tag_id" integer, "description" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150306123316"]]
+  [1m[36m (11.6ms)[0m  [1mcommit transaction[0m
+Migrating to CreatePositions (20150306123338)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.5ms)[0m  [1mCREATE TABLE "positions" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "longitude" float, "latitude" float, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150306123338"]]
+  [1m[36m (10.9ms)[0m  [1mcommit transaction[0m
+Migrating to CreateRelationsTable (20150322161917)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mCREATE TABLE "events_tags" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "event_id" integer, "tag_id" integer) [0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150322161917"]]
+  [1m[36m (11.2ms)[0m  [1mcommit transaction[0m
+Migrating to CreateCreators (20150322171503)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mCREATE TABLE "creators" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "username" varchar(255), "email" varchar(255), "password_digest" varchar(255) NOT NULL, "api_key" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150322171503"]]
+  [1m[36m (12.1ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."username" = 'Sandra' LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users"  WHERE "users"."email" = 'sandra@mail.com' LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "users" ("api_key", "created_at", "email", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?)[0m  [["api_key", "ba68bcd16383f61d5e590c23d51d8c35"], ["created_at", "2015-03-22 17:49:20.108069"], ["email", "sandra@mail.com"], ["password_digest", "$2a$10$cQTRdD3.AVjlBOJKntK8yO2KAv/kXdc/FWJOG46wDHX9fV8VFrTHy"], ["updated_at", "2015-03-22 17:49:20.108069"], ["username", "Sandra"]]
+  [1m[35m (23.4ms)[0m  commit transaction
+  [1m[36mCreator Load (2.1ms)[0m  [1mSELECT "creators".* FROM "creators"[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users"
+  [1m[36m (40.0ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (22.6ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateTags (20150126143112)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.7ms)[0m  [1mCREATE TABLE "tags" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150126143112"]]
+  [1m[36m (30.4ms)[0m  [1mcommit transaction[0m
+Migrating to CreateUsers (20150127121807)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "username" varchar(255), "email" varchar(255), "password_digest" varchar(255) NOT NULL, "api_key" varchar(255), "admin_auth" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150127121807"]]
+  [1m[36m (13.9ms)[0m  [1mcommit transaction[0m
+Migrating to CreateEvents (20150306123316)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mCREATE TABLE "events" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer, "position_id" integer, "tag_id" integer, "description" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150306123316"]]
+  [1m[36m (14.4ms)[0m  [1mcommit transaction[0m
+Migrating to CreatePositions (20150306123338)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mCREATE TABLE "positions" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "longitude" float, "latitude" float, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150306123338"]]
+  [1m[36m (12.0ms)[0m  [1mcommit transaction[0m
+Migrating to CreateRelationsTable (20150322161917)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mCREATE TABLE "events_tags" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "event_id" integer, "tag_id" integer) [0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150322161917"]]
+  [1m[36m (11.0ms)[0m  [1mcommit transaction[0m
+Migrating to CreateCreators (20150322171503)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mCREATE TABLE "creators" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "username" varchar(255), "email" varchar(255), "password_digest" varchar(255) NOT NULL, "api_key" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150322171503"]]
+  [1m[36m (13.0ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."username" = 'Sandra' LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users"  WHERE "users"."email" = 'sandra@mail.com' LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "users" ("api_key", "created_at", "email", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?)[0m  [["api_key", "920eb3988fed6f199bd4912faf06d6f3"], ["created_at", "2015-03-22 17:51:05.077149"], ["email", "sandra@mail.com"], ["password_digest", "$2a$10$tNorxf0kig8jEnrFXbIPNeLPROJPtwDatMDTbYm0Ozoqb/9lCUKK2"], ["updated_at", "2015-03-22 17:51:05.077149"], ["username", "Sandra"]]
+  [1m[35m (29.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mCreator Exists (0.2ms)[0m  SELECT  1 AS one FROM "creators"  WHERE "creators"."username" = 'Doris' LIMIT 1
+  [1m[36mCreator Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "creators"  WHERE "creators"."email" = 'mail@mail.com' LIMIT 1[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "creators" ("api_key", "created_at", "email", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?)  [["api_key", "660e781692894142e2f339bad20618af"], ["created_at", "2015-03-22 17:51:05.203439"], ["email", "mail@mail.com"], ["password_digest", "$2a$10$JNWJjTsFgfupxp8FCZuUg.YlwY7rmDvH.Mt2JDleiqDX1RitlG1Ku"], ["updated_at", "2015-03-22 17:51:05.203439"], ["username", "Doris"]]
+  [1m[36m (19.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "tags" ("created_at", "name", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", "2015-03-22 17:51:05.232799"], ["name", "Jakt/Fiske"], ["updated_at", "2015-03-22 17:51:05.232799"]]
+  [1m[35m (17.1ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "tags" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", "2015-03-22 17:51:05.251546"], ["name", "Grillning"], ["updated_at", "2015-03-22 17:51:05.251546"]]
+  [1m[36m (16.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "positions" ("created_at", "latitude", "longitude", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", "2015-03-22 17:51:05.276115"], ["latitude", 55.2345], ["longitude", 45.6544], ["updated_at", "2015-03-22 17:51:05.276115"]]
+  [1m[35m (15.3ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "positions" ("created_at", "latitude", "longitude", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", "2015-03-22 17:51:05.293318"], ["latitude", 58.4511], ["longitude", 33.6874], ["updated_at", "2015-03-22 17:51:05.293318"]]
+  [1m[36m (11.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "events" ("created_at", "description", "position_id", "tag_id", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2015-03-22 17:51:05.330718"], ["description", "Fiskeresa till Helsingborg"], ["position_id", 1], ["tag_id", 1], ["updated_at", "2015-03-22 17:51:05.330718"], ["user_id", 1]]
+  [1m[35m (16.2ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "events" ("created_at", "description", "position_id", "tag_id", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", "2015-03-22 17:51:05.349492"], ["description", "Vildsvinsjakt kl 17.00, ta på dig en färgstark mössa!"], ["position_id", 2], ["tag_id", 1], ["updated_at", "2015-03-22 17:51:05.349492"], ["user_id", 1]]
+  [1m[36m (13.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "events" ("created_at", "description", "position_id", "tag_id", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2015-03-22 17:51:05.364437"], ["description", "Grillning på Sveaplan, vi bjuder på korv!"], ["position_id", 2], ["tag_id", 2], ["updated_at", "2015-03-22 17:51:05.364437"], ["user_id", 1]]
+  [1m[35m (13.0ms)[0m  commit transaction
+  [1m[36mCreator Load (2.0ms)[0m  [1mSELECT "creators".* FROM "creators"[0m
+
+
+Started GET "/api/creators" for 194.47.173.3 at 2015-03-22 17:51:22 +0000
+Processing by Api::CreatorsController#index as */*
+  [1m[35mCreator Load (0.5ms)[0m  SELECT "creators".* FROM "creators"   ORDER BY "creators"."created_at" DESC
+Completed 200 OK in 12ms (Views: 5.6ms | ActiveRecord: 0.8ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users"
+
+
+Started GET "/api/creators" for 194.47.173.3 at 2015-03-22 17:51:34 +0000
+Processing by Api::CreatorsController#index as */*
+  [1m[36mCreator Load (0.2ms)[0m  [1mSELECT "creators".* FROM "creators"   ORDER BY "creators"."created_at" DESC[0m
+Completed 200 OK in 4ms (Views: 1.0ms | ActiveRecord: 0.2ms)
+  [1m[36m (67.0ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (19.4ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateTags (20150126143112)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.6ms)[0m  [1mCREATE TABLE "tags" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150126143112"]]
+  [1m[36m (19.9ms)[0m  [1mcommit transaction[0m
+Migrating to CreateUsers (20150127121807)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "username" varchar(255), "email" varchar(255), "password_digest" varchar(255) NOT NULL, "api_key" varchar(255), "admin_auth" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150127121807"]]
+  [1m[36m (13.4ms)[0m  [1mcommit transaction[0m
+Migrating to CreateEvents (20150306123316)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mCREATE TABLE "events" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer, "position_id" integer, "tag_id" integer, "description" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150306123316"]]
+  [1m[36m (14.4ms)[0m  [1mcommit transaction[0m
+Migrating to CreatePositions (20150306123338)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mCREATE TABLE "positions" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "longitude" float, "latitude" float, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150306123338"]]
+  [1m[36m (19.1ms)[0m  [1mcommit transaction[0m
+Migrating to CreateRelationsTable (20150322161917)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.5ms)[0m  [1mCREATE TABLE "events_tags" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "event_id" integer, "tag_id" integer) [0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150322161917"]]
+  [1m[36m (17.3ms)[0m  [1mcommit transaction[0m
+Migrating to CreateCreators (20150322171503)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mCREATE TABLE "creators" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "username" varchar(255), "email" varchar(255), "password_digest" varchar(255) NOT NULL, "api_key" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150322171503"]]
+  [1m[36m (16.5ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (1.7ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."username" = 'Sandra' LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users"  WHERE "users"."email" = 'sandra@mail.com' LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "users" ("api_key", "created_at", "email", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?)[0m  [["api_key", "016b37e825e3aa593f4c5548a41dc59c"], ["created_at", "2015-03-22 17:58:10.518515"], ["email", "sandra@mail.com"], ["password_digest", "$2a$10$x7zfFeHGEdJvs8pQHdzfMOJawbhIdPfg9x0d525vtOLm/hM.WbZ8G"], ["updated_at", "2015-03-22 17:58:10.518515"], ["username", "Sandra"]]
+  [1m[35m (60.5ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mCreator Exists (0.2ms)[0m  SELECT  1 AS one FROM "creators"  WHERE "creators"."username" = 'Doris' LIMIT 1
+  [1m[36mCreator Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "creators"  WHERE "creators"."email" = 'mail@mail.com' LIMIT 1[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "creators" ("api_key", "created_at", "email", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?)  [["api_key", "b7034336ec4e53defbb840000351cefc"], ["created_at", "2015-03-22 17:58:11.118647"], ["email", "mail@mail.com"], ["password_digest", "$2a$10$9PoD4MmgDaivyQJtG/AZK.v.Qex4cC5g1p7A2N.GpYNW73LL0VQBe"], ["updated_at", "2015-03-22 17:58:11.118647"], ["username", "Doris"]]
+  [1m[36m (34.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mCreator Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "creators"  WHERE "creators"."username" = 'Danne' LIMIT 1[0m
+  [1m[35mCreator Exists (0.1ms)[0m  SELECT  1 AS one FROM "creators"  WHERE "creators"."email" = 'danne@mail.com' LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "creators" ("api_key", "created_at", "email", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?)[0m  [["api_key", "546aa60a6a91d9424e220061201da4fb"], ["created_at", "2015-03-22 17:58:11.239934"], ["email", "danne@mail.com"], ["password_digest", "$2a$10$wefPbw36ivZpgIIdNlj5su01Cx5ul9w4B6Eac9OxyFSxx1753Al.q"], ["updated_at", "2015-03-22 17:58:11.239934"], ["username", "Danne"]]
+  [1m[35m (29.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "tags" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", "2015-03-22 17:58:11.280259"], ["name", "Jakt/Fiske"], ["updated_at", "2015-03-22 17:58:11.280259"]]
+  [1m[36m (18.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "tags" ("created_at", "name", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", "2015-03-22 17:58:11.300803"], ["name", "Grillning"], ["updated_at", "2015-03-22 17:58:11.300803"]]
+  [1m[35m (29.3ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "positions" ("created_at", "latitude", "longitude", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", "2015-03-22 17:58:11.338409"], ["latitude", 55.2345], ["longitude", 45.6544], ["updated_at", "2015-03-22 17:58:11.338409"]]
+  [1m[36m (16.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "positions" ("created_at", "latitude", "longitude", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", "2015-03-22 17:58:11.356703"], ["latitude", 58.4511], ["longitude", 33.6874], ["updated_at", "2015-03-22 17:58:11.356703"]]
+  [1m[35m (21.3ms)[0m  commit transaction
+  [1m[36mUser Load (2.3ms)[0m  [1mSELECT "users".* FROM "users"[0m
+
+
+Started GET "/api/creators/" for 194.47.173.3 at 2015-03-22 17:58:33 +0000
+Processing by Api::CreatorsController#index as */*
+  [1m[35mCreator Load (0.5ms)[0m  SELECT "creators".* FROM "creators"   ORDER BY "creators"."created_at" DESC
+Completed 200 OK in 11ms (Views: 5.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/api/creators/1/events" for 194.47.173.3 at 2015-03-22 17:59:23 +0000
+Processing by Api::CreatorsController#eventsbycreator as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mCreator Load (0.3ms)[0m  [1mSELECT  "creators".* FROM "creators"  WHERE "creators"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mEvent Load (0.3ms)[0m  SELECT "events".* FROM "events"  WHERE "events"."creator_id" = ?  [[nil, 1]]
+SQLite3::SQLException: no such column: events.creator_id: SELECT "events".* FROM "events"  WHERE "events"."creator_id" = ?
+Completed 500 Internal Server Error in 22ms
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such column: events.creator_id: SELECT "events".* FROM "events"  WHERE "events"."creator_id" = ?):
+  app/controllers/api/creators_controller.rb:16:in `eventsbycreator'
+
+
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (22.5ms)
+
+
+Started GET "/api/creators/1" for 194.47.173.3 at 2015-03-22 17:59:39 +0000
+Processing by Api::CreatorsController#show as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mCreator Load (0.2ms)[0m  [1mSELECT  "creators".* FROM "creators"  WHERE "creators"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 3ms (Views: 0.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/creators/1/events" for 194.47.173.3 at 2015-03-22 17:59:43 +0000
+Processing by Api::CreatorsController#eventsbycreator as */*
+  Parameters: {"id"=>"1"}
+  [1m[35mCreator Load (0.2ms)[0m  SELECT  "creators".* FROM "creators"  WHERE "creators"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mEvent Load (0.4ms)[0m  [1mSELECT "events".* FROM "events"  WHERE "events"."creator_id" = ?[0m  [[nil, 1]]
+SQLite3::SQLException: no such column: events.creator_id: SELECT "events".* FROM "events"  WHERE "events"."creator_id" = ?
+Completed 500 Internal Server Error in 4ms
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such column: events.creator_id: SELECT "events".* FROM "events"  WHERE "events"."creator_id" = ?):
+  app/controllers/api/creators_controller.rb:16:in `eventsbycreator'
+
+
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/action/.gem/ruby/2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.6ms)
+
+
+Started GET "/api/creators/1/events" for 194.47.173.3 at 2015-03-22 17:59:59 +0000
+Processing by Api::CreatorsController#eventsbycreator as */*
+  Parameters: {"id"=>"1"}
+  [1m[35mCreator Load (0.2ms)[0m  SELECT  "creators".* FROM "creators"  WHERE "creators"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 12ms (Views: 0.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/api/events" for 194.47.173.3 at 2015-03-22 18:00:23 +0000
+Processing by Api::EventsController#index as */*
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."api_key" = '016b37e825e3aa593f4c5548a41dc59c' LIMIT 1[0m
+  [1m[35mEvent Load (0.3ms)[0m  SELECT  "events".* FROM "events"   ORDER BY "events"."created_at" DESC LIMIT 20 OFFSET 0
+Completed 200 OK in 16ms (Views: 0.7ms | ActiveRecord: 1.0ms)
+  [1m[35mEvent Load (0.2ms)[0m  SELECT "events".* FROM "events"
+  [1m[36m (24.4ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (11.6ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateTags (20150126143112)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.6ms)[0m  [1mCREATE TABLE "tags" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150126143112"]]
+  [1m[36m (15.8ms)[0m  [1mcommit transaction[0m
+Migrating to CreateUsers (20150127121807)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.3ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "username" varchar(255), "email" varchar(255), "password_digest" varchar(255) NOT NULL, "api_key" varchar(255), "admin_auth" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150127121807"]]
+  [1m[36m (11.2ms)[0m  [1mcommit transaction[0m
+Migrating to CreateEvents (20150306123316)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.5ms)[0m  [1mCREATE TABLE "events" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "creator_id" integer, "position_id" integer, "tag_id" integer, "description" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150306123316"]]
+  [1m[36m (39.2ms)[0m  [1mcommit transaction[0m
+Migrating to CreatePositions (20150306123338)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mCREATE TABLE "positions" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "longitude" float, "latitude" float, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150306123338"]]
+  [1m[36m (19.7ms)[0m  [1mcommit transaction[0m
+Migrating to CreateRelationsTable (20150322161917)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mCREATE TABLE "events_tags" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "event_id" integer, "tag_id" integer) [0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150322161917"]]
+  [1m[36m (20.8ms)[0m  [1mcommit transaction[0m
+Migrating to CreateCreators (20150322171503)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mCREATE TABLE "creators" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "username" varchar(255), "email" varchar(255), "password_digest" varchar(255) NOT NULL, "api_key" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150322171503"]]
+  [1m[36m (19.2ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."username" = 'Sandra' LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users"  WHERE "users"."email" = 'sandra@mail.com' LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "users" ("api_key", "created_at", "email", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?)[0m  [["api_key", "1db54ea68c2ba415f5b8fb22bc4f2945"], ["created_at", "2015-03-22 18:09:35.496487"], ["email", "sandra@mail.com"], ["password_digest", "$2a$10$ohrkObwfztq8Q4hwIBo2uuS/AM7Mt2YfxXJYWblUxLYPF0P/SK0Vq"], ["updated_at", "2015-03-22 18:09:35.496487"], ["username", "Sandra"]]
+  [1m[35m (32.3ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mCreator Exists (0.2ms)[0m  SELECT  1 AS one FROM "creators"  WHERE "creators"."username" = 'Doris' LIMIT 1
+  [1m[36mCreator Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "creators"  WHERE "creators"."email" = 'mail@mail.com' LIMIT 1[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "creators" ("api_key", "created_at", "email", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?)  [["api_key", "36af1214e10c1ab7223aa55436540698"], ["created_at", "2015-03-22 18:09:36.098045"], ["email", "mail@mail.com"], ["password_digest", "$2a$10$OOVUXq9s7GKPkdUYdW4anuTRU/.783FuQJDtXAsDBTSWOKifw2t12"], ["updated_at", "2015-03-22 18:09:36.098045"], ["username", "Doris"]]
+  [1m[36m (21.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mCreator Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "creators"  WHERE "creators"."username" = 'Danne' LIMIT 1[0m
+  [1m[35mCreator Exists (0.1ms)[0m  SELECT  1 AS one FROM "creators"  WHERE "creators"."email" = 'danne@mail.com' LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "creators" ("api_key", "created_at", "email", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?)[0m  [["api_key", "142d8f3ff714fc677461fbeb7e564c81"], ["created_at", "2015-03-22 18:09:36.202672"], ["email", "danne@mail.com"], ["password_digest", "$2a$10$WfDzdaCJZAFb4c3L82EocuJnF7UWAfvDaZO5cTEUgHKJSEgfrMJBG"], ["updated_at", "2015-03-22 18:09:36.202672"], ["username", "Danne"]]
+  [1m[35m (12.4ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "tags" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", "2015-03-22 18:09:36.226225"], ["name", "Jakt/Fiske"], ["updated_at", "2015-03-22 18:09:36.226225"]]
+  [1m[36m (12.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "tags" ("created_at", "name", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", "2015-03-22 18:09:36.240142"], ["name", "Grillning"], ["updated_at", "2015-03-22 18:09:36.240142"]]
+  [1m[35m (11.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "positions" ("created_at", "latitude", "longitude", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", "2015-03-22 18:09:36.259517"], ["latitude", 55.2345], ["longitude", 45.6544], ["updated_at", "2015-03-22 18:09:36.259517"]]
+  [1m[36m (19.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "positions" ("created_at", "latitude", "longitude", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", "2015-03-22 18:09:36.280645"], ["latitude", 58.4511], ["longitude", 33.6874], ["updated_at", "2015-03-22 18:09:36.280645"]]
+  [1m[35m (18.4ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "events" ("created_at", "creator_id", "description", "position_id", "tag_id", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", "2015-03-22 18:09:36.311526"], ["creator_id", 2], ["description", "Fiskeresa till Helsingborg"], ["position_id", 1], ["tag_id", 1], ["updated_at", "2015-03-22 18:09:36.311526"]]
+  [1m[36m (12.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "events" ("created_at", "creator_id", "description", "position_id", "tag_id", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2015-03-22 18:09:36.325911"], ["creator_id", 1], ["description", "Vildsvinsjakt kl 17.00, ta på dig en färgstark mössa!"], ["position_id", 2], ["tag_id", 1], ["updated_at", "2015-03-22 18:09:36.325911"]]
+  [1m[35m (12.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "events" ("created_at", "creator_id", "description", "position_id", "tag_id", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", "2015-03-22 18:09:36.340540"], ["creator_id", 1], ["description", "Grillning på Sveaplan, vi bjuder på korv!"], ["position_id", 2], ["tag_id", 2], ["updated_at", "2015-03-22 18:09:36.340540"]]
+  [1m[36m (11.3ms)[0m  [1mcommit transaction[0m
+  [1m[36mUser Load (2.4ms)[0m  [1mSELECT "users".* FROM "users"[0m
+
+
+Started GET "/api/events" for 194.47.173.3 at 2015-03-22 18:10:07 +0000
+Processing by Api::EventsController#index as */*
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."api_key" = '1db54ea68c2ba415f5b8fb22bc4f2945' LIMIT 1[0m
+  [1m[35mEvent Load (0.3ms)[0m  SELECT  "events".* FROM "events"   ORDER BY "events"."created_at" DESC LIMIT 20 OFFSET 0
+Completed 200 OK in 21ms (Views: 6.6ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/api/events/1" for 194.47.173.3 at 2015-03-22 18:10:14 +0000
+Processing by Api::EventsController#show as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."api_key" = '1db54ea68c2ba415f5b8fb22bc4f2945' LIMIT 1[0m
+  [1m[35mEvent Load (0.2ms)[0m  SELECT  "events".* FROM "events"  WHERE "events"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 4ms (Views: 0.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/tags" for 194.47.173.3 at 2015-03-22 18:10:18 +0000
+Processing by Api::TagsController#index as */*
+  [1m[36mTag Load (0.2ms)[0m  [1mSELECT "tags".* FROM "tags"   ORDER BY "tags"."created_at" DESC[0m
+Completed 200 OK in 11ms (Views: 3.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/api/tags/1" for 194.47.173.3 at 2015-03-22 18:10:22 +0000
+Processing by Api::TagsController#show as */*
+  Parameters: {"id"=>"1"}
+  [1m[35mTag Load (0.3ms)[0m  SELECT  "tags".* FROM "tags"  WHERE "tags"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 3ms (Views: 0.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/tags/1/events" for 194.47.173.3 at 2015-03-22 18:10:26 +0000
+Processing by Api::TagsController#tagevents as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mTag Load (0.2ms)[0m  [1mSELECT  "tags".* FROM "tags"  WHERE "tags"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mEvent Load (0.3ms)[0m  SELECT "events".* FROM "events" INNER JOIN "events_tags" ON "events"."id" = "events_tags"."event_id" WHERE "events_tags"."tag_id" = ?  [["tag_id", 1]]
+Completed 200 OK in 48ms (Views: 39.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/api/creators" for 194.47.173.3 at 2015-03-22 18:11:09 +0000
+Processing by Api::CreatorsController#index as */*
+  [1m[36mCreator Load (0.3ms)[0m  [1mSELECT "creators".* FROM "creators"   ORDER BY "creators"."created_at" DESC[0m
+Completed 200 OK in 12ms (Views: 5.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/api/creators/1" for 194.47.173.3 at 2015-03-22 18:11:13 +0000
+Processing by Api::CreatorsController#show as */*
+  Parameters: {"id"=>"1"}
+  [1m[35mCreator Load (0.3ms)[0m  SELECT  "creators".* FROM "creators"  WHERE "creators"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 3ms (Views: 0.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/creators/1/events" for 194.47.173.3 at 2015-03-22 18:11:18 +0000
+Processing by Api::CreatorsController#eventsbycreator as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mCreator Load (0.2ms)[0m  [1mSELECT  "creators".* FROM "creators"  WHERE "creators"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 3ms (Views: 0.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/creators/2/events" for 194.47.173.3 at 2015-03-22 18:11:22 +0000
+Processing by Api::CreatorsController#eventsbycreator as */*
+  Parameters: {"id"=>"2"}
+  [1m[35mCreator Load (0.2ms)[0m  SELECT  "creators".* FROM "creators"  WHERE "creators"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 3ms (Views: 0.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/creators/2/events" for 194.47.173.3 at 2015-03-22 18:12:23 +0000
+Processing by Api::CreatorsController#eventsbycreator as */*
+  Parameters: {"id"=>"2"}
+  [1m[36mCreator Load (0.2ms)[0m  [1mSELECT  "creators".* FROM "creators"  WHERE "creators"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mEvent Load (0.3ms)[0m  SELECT "events".* FROM "events"  WHERE "events"."creator_id" = ?  [["creator_id", 2]]
+Completed 200 OK in 22ms (Views: 8.1ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/api/tags/2/events" for 194.47.173.3 at 2015-03-22 18:12:53 +0000
+Processing by Api::TagsController#tagevents as */*
+  Parameters: {"id"=>"2"}
+  [1m[36mTag Load (0.2ms)[0m  [1mSELECT  "tags".* FROM "tags"  WHERE "tags"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mEvent Load (0.2ms)[0m  SELECT "events".* FROM "events" INNER JOIN "events_tags" ON "events"."id" = "events_tags"."event_id" WHERE "events_tags"."tag_id" = ?  [["tag_id", 2]]
+Completed 200 OK in 17ms (Views: 1.0ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/api/tags/1/events" for 194.47.173.3 at 2015-03-22 18:13:02 +0000
+Processing by Api::TagsController#tagevents as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mTag Load (0.2ms)[0m  [1mSELECT  "tags".* FROM "tags"  WHERE "tags"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mEvent Load (0.1ms)[0m  SELECT "events".* FROM "events" INNER JOIN "events_tags" ON "events"."id" = "events_tags"."event_id" WHERE "events_tags"."tag_id" = ?  [["tag_id", 1]]
+Completed 200 OK in 5ms (Views: 1.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/tags/1/events" for 194.47.173.3 at 2015-03-22 18:13:15 +0000
+Processing by Api::TagsController#tagevents as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mTag Load (0.2ms)[0m  [1mSELECT  "tags".* FROM "tags"  WHERE "tags"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mEvent Load (0.2ms)[0m  SELECT "events".* FROM "events" INNER JOIN "events_tags" ON "events"."id" = "events_tags"."event_id" WHERE "events_tags"."tag_id" = ?  [["tag_id", 1]]
+Completed 200 OK in 17ms (Views: 1.2ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/api/tags/1/events" for 194.47.173.3 at 2015-03-22 18:13:16 +0000
+Processing by Api::TagsController#tagevents as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mTag Load (0.2ms)[0m  [1mSELECT  "tags".* FROM "tags"  WHERE "tags"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mEvent Load (0.1ms)[0m  SELECT "events".* FROM "events" INNER JOIN "events_tags" ON "events"."id" = "events_tags"."event_id" WHERE "events_tags"."tag_id" = ?  [["tag_id", 1]]
+Completed 200 OK in 4ms (Views: 0.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/creators/1/events" for 194.47.173.3 at 2015-03-22 18:13:36 +0000
+Processing by Api::CreatorsController#eventsbycreator as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mCreator Load (0.2ms)[0m  [1mSELECT  "creators".* FROM "creators"  WHERE "creators"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mEvent Load (0.2ms)[0m  SELECT "events".* FROM "events"  WHERE "events"."creator_id" = ?  [["creator_id", 1]]
+Completed 200 OK in 21ms (Views: 5.8ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/api/creators/2/events" for 194.47.173.3 at 2015-03-22 18:13:42 +0000
+Processing by Api::CreatorsController#eventsbycreator as */*
+  Parameters: {"id"=>"2"}
+  [1m[36mCreator Load (0.2ms)[0m  [1mSELECT  "creators".* FROM "creators"  WHERE "creators"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mEvent Load (0.1ms)[0m  SELECT "events".* FROM "events"  WHERE "events"."creator_id" = ?  [["creator_id", 2]]
+Completed 200 OK in 4ms (Views: 1.2ms | ActiveRecord: 0.3ms)

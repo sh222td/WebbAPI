@@ -1,4 +1,4 @@
-class PositionsController < ApplicationController
+class API::PositionsController < ApplicationController
   
   def api_authenticate 
     if request.headers["Authorization"].present?

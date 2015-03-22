@@ -2,8 +2,8 @@ class Event < ActiveRecord::Base
   
   include Rails.application.routes.url_helpers
   
-  has_many :users
-  has_many :positions
+  belongs_to :positions
+  belongs_to :creator
   has_and_belongs_to_many :tags
   
   # this is called for both as_json and to_xml

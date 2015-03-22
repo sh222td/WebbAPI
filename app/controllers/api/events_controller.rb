@@ -5,13 +5,13 @@ class Api::EventsController < ApplicationController
   before_action :api_authenticate, only: [:index, :show, :nearby]
   
   def index 
-    events = Event.limit(@limit).offset(@offset)
+    events = Event.limit(@limit).offset(@offset).order(:created_at => :desc)
     respond_with events
   end
   
   def show
     @event = Event.find(params[:id])
-    respond_with @team, location: api_events_path(@event)
+    respond_with @event, location: api_events_path(@event)
     
     rescue ActiveRecord::RecordNotFound
     @ErrorMessage.new("Could not find that resource. Are you using the right event_id?", "The event was not found!")
@@ -65,7 +65,7 @@ class Api::EventsController < ApplicationController
   # strong parameters
   def event_params
     json_params = ActionController::Parameters.new(JSON.parse(request.body.read))
-    json_params.require(:event).permit(:userID, :positionID, :tagID, :description)
+    json_params.require(:event).permit(:creator_id, :position_id, :tag_id, :description)
   end
 end
 

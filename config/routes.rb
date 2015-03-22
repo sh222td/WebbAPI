@@ -9,10 +9,15 @@ Rails.application.routes.draw do
   post 'login'        => 'users#login',        :as => "login"
   get  'logout'       => 'users#logout',       as:    :logout
   
+ 
   resources :users
 
   namespace :api do
-    resources :events
+    resources :events, :positions, :tags, :creators
+    get 'tags/:id/events'      => 'tags#tagevents'
+    get 'creators/:id/events'  => 'creators#eventsbycreator'
   end
+  
+  
  
 end

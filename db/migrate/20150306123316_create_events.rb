@@ -1,9 +1,9 @@
 class CreateEvents < ActiveRecord::Migration
   def change
     create_table :events do |t|
-      t.integer :userID
-      t.integer :positionID
-      t.integer :tagID
+      t.integer :creator_id
+      t.integer :position_id
+      t.integer :tag_id
       t.string :description
       t.timestamps null: false
     end
